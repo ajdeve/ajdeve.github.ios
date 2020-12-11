@@ -1,1 +1,0 @@
-# ajdeve.github.io
