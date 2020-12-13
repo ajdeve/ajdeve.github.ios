@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://ajdeve.github.io/sitemap.xml
