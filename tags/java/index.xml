@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JAVA on AJ&#39;s DEV LIFE</title>
+    <link>https://ajdeve.github.io/tags/java/</link>
+    <description>Recent content in JAVA on AJ&#39;s DEV LIFE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JAVA Method Examples</title>
+      <link>https://ajdeve.github.io/post/java1/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://ajdeve.github.io/post/java1/</guid>
+      <description>JAVA Level 1. 기초 메서드 1. System.out 활용 메서드 - 출력 public static void main(String[] args) { System.out.print(&amp;#34;Hello World&amp;#34;); } - String 출력 public static void main(String[] args) { String h = &amp;#34;Hello World&amp;#34;; System.out.print(h); } - String + 출력 public static void main(String[] args) { String a = &amp;#34;Hello&amp;#34;; String b = &amp;#34; &amp;#34;; String c = &amp;#34;World&amp;#34;; System.out.print(a + b + c); } - String 출력 +, ++, if, == public static void main(String[] args) { String a = &amp;#34;Hello&amp;#34;; String b = &amp;#34; &amp;#34;; String c = &amp;#34;World&amp;#34;; int i = 1; i++; if (i == 2) { System.</description>
+    </item>
+    
+  </channel>
+</rss>

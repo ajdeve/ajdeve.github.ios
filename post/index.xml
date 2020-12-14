@@ -7,12 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>JDBC_JPA</title>
-      <link>https://ajdeve.github.io/post/firstpost/</link>
+      <title>JAVA Method Examples</title>
+      <link>https://ajdeve.github.io/post/java1/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
       
-      <guid>https://ajdeve.github.io/post/firstpost/</guid>
-      <description>JDBC_JPA flush() : DB에 실제 쿼리를 날려 execute하는 기능이며 commit이 아니기에 DB에 반영이 되지 않는다.
+      <guid>https://ajdeve.github.io/post/java1/</guid>
+      <description>JAVA Level 1. 기초 메서드 1. System.out 활용 메서드 - 출력 public static void main(String[] args) { System.out.print(&amp;#34;Hello World&amp;#34;); } - String 출력 public static void main(String[] args) { String h = &amp;#34;Hello World&amp;#34;; System.out.print(h); } - String + 출력 public static void main(String[] args) { String a = &amp;#34;Hello&amp;#34;; String b = &amp;#34; &amp;#34;; String c = &amp;#34;World&amp;#34;; System.out.print(a + b + c); } - String 출력 +, ++, if, == public static void main(String[] args) { String a = &amp;#34;Hello&amp;#34;; String b = &amp;#34; &amp;#34;; String c = &amp;#34;World&amp;#34;; int i = 1; i++; if (i == 2) { System.</description>
+    </item>
+    
+    <item>
+      <title>JDBC 환경세팅</title>
+      <link>https://ajdeve.github.io/post/jdbc1/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://ajdeve.github.io/post/jdbc1/</guid>
+      <description>JDBC 환경세팅 CASE: 하나의 Team에는 한명의 Member가 있는 상황 @OneToOne   eclipse에서 new java project 생성
+  마우스 오른쪽 클릭 → configure → maven project
+  마우스 오른쪽 클릭 → configure → JPA project
+  pom.xml setup
+  Dependency &amp;amp; Repository setup
+&amp;lt;dependencies&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;javax.persistence&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;javax.persistence-api&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.hibernate&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;hibernate-entitymanager&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;5.4.2.Final&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.projectlombok&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;lombok&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.18.8&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.jslsolucoes&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;ojdbc6&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;11.2.0.1.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.junit.platform&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;junit-platform-runner&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.</description>
+    </item>
+    
+    <item>
+      <title>JDBC&amp;JPA</title>
+      <link>https://ajdeve.github.io/post/jdbc0/</link>
+      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      
+      <guid>https://ajdeve.github.io/post/jdbc0/</guid>
+      <description>JDBC&amp;amp;JPA JDBC, JPA/Hibernate를 사용할때 제일 헷갈리는 부분을 아래와 같이 정리했다.
+flush() : DB에 실제 쿼리를 날려 execute하는 기능이며 commit이 아니기에 DB에 반영이 되지 않는다.
 clear() : 영속성 컨텍스트에 저장한 데이터를 지워버린다.
 commit() : DB에 저장,수정,삭제를 반영한다.
 rollback:() : DB에 저장하지 않고 영속성 컨텍스트 데이터를 날린다.</description>
