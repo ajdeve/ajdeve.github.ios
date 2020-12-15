@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://ajdeve.github.io/post/web01/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ajdeve.github.io/post/jdbc0/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url>
@@ -69,6 +74,21 @@
   
   <url>
     <loc>https://ajdeve.github.io/tags/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajdeve.github.io/tags/web/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajdeve.github.io/series/web/</loc>
+    <lastmod>2020-09-15T11:30:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ajdeve.github.io/categories/web/</loc>
     <lastmod>2020-09-15T11:30:03+00:00</lastmod>
   </url>
   
