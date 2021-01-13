@@ -5,17 +5,17 @@
     <link>https://ajdeve.github.io/categories/web/</link>
     <description>Recent content in Web on AJ&#39;s DEV LIFE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Dec 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/categories/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>JDBC 환경세팅</title>
+      <title>Web Beginner Series 1</title>
       <link>https://ajdeve.github.io/post/web01/</link>
-      <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
+      <pubDate>Tue, 15 Dec 2020 11:30:03 +0000</pubDate>
       
       <guid>https://ajdeve.github.io/post/web01/</guid>
       <description>Web 기본 Web 개발 기술   http 프로토콜 기반의 지원 기술
   client단 개발 기술
  화면 구성 html: 구조  서버에 전송하고자 하는 입력 양식 (input from)   css: 보기 좋게 꾸미는 언어 Java script: 브라우저 화면을 동적 처리를 위한 언어  모든 서버단 언어와 소통이 가능 화면단 처리 언어 Java와 non-java와 소통 가능      server단 개발 기술 (back)
- Java 기반: Servle &amp;amp; JSP  servlet  java 기반의 웹 처리 스펙 controller   JSP  java 코드 보다는 jsp 자체 tag + html tag + css + java script 위주의 화면단 처리 스펙 java 코드 보다는 jsp 자체 tag 위주의 화면단 처리 스펙 java의 데이터값을 브라우저 화면에 출력하게 하는 기술 화면 처리 언어 html과 가장 큰 차이점  html은 자바 코드 활용 불가       php, asp, django&amp;hellip;  python 기반의 분석      front + back = full stack</description>
+ Java 기반: Servle &amp;amp; JSP  servlet  java 기반의 웹 처리 스펙 controller   JSP  Java 코드 보다는 jsp 자체 tag + html tag + css + java script 위주의 화면단 처리 스펙 Java 코드 보다는 jsp 자체 tag 위주의 화면단 처리 스펙 Java의 데이터값을 브라우저 화면에 출력하게 하는 기술 화면 처리 언어 html과 가장 큰 차이점  html은 자바 코드 활용 불가       php, asp, django&amp;hellip;  python 기반의 분석      front + back = full stack</description>
     </item>
     
   </channel>
