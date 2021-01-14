@@ -5,7 +5,19 @@
     <link>https://ajdeve.github.io/post/</link>
     <description>Recent content in Posts on AJ&#39;s DEV LIFE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 12 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thread VS. Process</title>
+      <link>https://ajdeve.github.io/post/vue.js/</link>
+      <pubDate>Thu, 14 Jan 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://ajdeve.github.io/post/vue.js/</guid>
+      <description>Vue.js 정의 Vue.js Frontend를 쉽게 접근할 수 있게 하는 JS library
+MVVM Pattern MVC와 비슷하지만 다른 MVVM 패턴
+MVC VS. MVVM MVC: Controller와 Model이 Backend, View가 Frontend MVVM: 모든 요소가 Front이며 Javascript &amp;amp;HTML
+설치 Vue.js 사이트에서 설치 script 가져와 Head tag 전에 삽입 &amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; 중요 문법 Vue Instance 와 Key Attribute &amp;lt;div id=&amp;#34;app&amp;#34;&amp;gt; &amp;lt;input tyv-model=&amp;#34;name&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;  &amp;lt;script&amp;gt; let model = { &amp;#34;name&amp;#34;: &amp;#34;hugo&amp;#34;}; let vm = new Vue({ el: &amp;#34;app&amp;#34;, data: model }); &amp;lt;/script&amp;gt; 중요 문법: v-show, v-if, v-if-else v-show와 v-if</description>
+    </item>
+    
     <item>
       <title>Thread VS. Process</title>
       <link>https://ajdeve.github.io/post/thread-vs.-process/</link>
@@ -14,7 +26,7 @@
       <guid>https://ajdeve.github.io/post/thread-vs.-process/</guid>
       <description>Thread VS. Process Thread VS. Process 프로세스는 독립적이며 프로세스 안에는 스레드가 있다. 프로세스에게 주어진 메모리는 공유가 가능하지 않으면 프로세스 안에 있는 스레드들은 자원과 메모리를 공유한다.
 정의 스레드와-프로세스
-특이점  Process는 서로 소통하지 않지만 IPC(Inter Process Communication) 라는게 존재한다 JAVA에는 프로세스라는게 존재하지 않는다, Java.exe 자체가 프로세스다. 프로세스라는 것은 프로그램과 같은 개념으로 볼 수 있다. 동시다발적으로 요청을 처리하기 위해 스레드를 사용할 수 있다.  이해도 향상을 위한 그림 코드 예시 public class MyThread extends Thread {</description>
+특이점  Process는 서로 소통하지 않지만 IPC(Inter Process Communication) 라는게 존재한다 JAVA에는 프로세스라는게 존재하지 않는다, Java.exe 자체가 프로세스다. 프로세스라는 것은 프로그램과 같은 개념으로 볼 수 있다. 동시다발적으로 요청을 처리하기 위해 스레드를 사용할 수 있다.  이해도 향상을 위한 그림 코드 예시 public class MyThread extends Thread { public void run(){ System.</description>
     </item>
     
     <item>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vue.js on AJ&#39;s DEV LIFE</title>
+    <link>https://ajdeve.github.io/series/vue.js/</link>
+    <description>Recent content in Vue.js on AJ&#39;s DEV LIFE</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 14 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/series/vue.js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thread VS. Process</title>
+      <link>https://ajdeve.github.io/post/vue.js/</link>
+      <pubDate>Thu, 14 Jan 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://ajdeve.github.io/post/vue.js/</guid>
+      <description>Vue.js 정의 Vue.js Frontend를 쉽게 접근할 수 있게 하는 JS library
+MVVM Pattern MVC와 비슷하지만 다른 MVVM 패턴
+MVC VS. MVVM MVC: Controller와 Model이 Backend, View가 Frontend MVVM: 모든 요소가 Front이며 Javascript &amp;amp;HTML
+설치 Vue.js 사이트에서 설치 script 가져와 Head tag 전에 삽입 &amp;lt;script src=&amp;#34;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt; 중요 문법 Vue Instance 와 Key Attribute &amp;lt;div id=&amp;#34;app&amp;#34;&amp;gt; &amp;lt;input tyv-model=&amp;#34;name&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;  &amp;lt;script&amp;gt; let model = { &amp;#34;name&amp;#34;: &amp;#34;hugo&amp;#34;}; let vm = new Vue({ el: &amp;#34;app&amp;#34;, data: model }); &amp;lt;/script&amp;gt; 중요 문법: v-show, v-if, v-if-else v-show와 v-if</description>
+    </item>
+    
+  </channel>
+</rss>
