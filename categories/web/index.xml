@@ -5,7 +5,18 @@
     <link>https://ajdeve.github.io/categories/web/</link>
     <description>Recent content in Web on AJ&#39;s DEV LIFE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 15 Dec 2020 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/categories/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Servlet &amp; JSP</title>
+      <link>https://ajdeve.github.io/post/servlet-jsp/</link>
+      <pubDate>Sun, 17 Jan 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://ajdeve.github.io/post/servlet-jsp/</guid>
+      <description>Servlet &amp;amp; JSP 정의 Servlet: 서블렛은 Java class로서 서버의 요청을 다루기 위해 쓰인다.
+ 서블렛을 통해 사용자의 input을 모으거나, DB에서 레코드를 출력한다거나 dynamic web page들을 생성하거나 할 수 있다. 쉽게 말하면 &amp;ldquo;클라이언트의 요구를 받아 그에 대한 처리를 한 후, 결과를 되돌려주는 서버 모듈&amp;quot;이다. 서블릿은 JSP에서 컨텐츠와 비즈니스 로직을 분리한다. JSP가 텍스트 파일 구조인데 비해 서블릿은 자바 클래스 구조이다.  출처: https://ddo-o.tistory.com/77 [공순이의 블로그]
+Servlet 돌아가는 과정 서블렛은 Servlet Container (서블렛 컨테이너)에게서 컨트롤된다.</description>
+    </item>
+    
     <item>
       <title>Web Beginner Series 1</title>
       <link>https://ajdeve.github.io/post/web01/</link>
