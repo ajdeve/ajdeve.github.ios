@@ -8,8 +8,9 @@
 <title>Spring Framework | AJ&#39;s DEV LIFE</title>
 
 <meta name="keywords" content="Web" />
-<meta name="description" content="Spring Framework Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다.
-Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량화된 솔루션 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리합니다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있습니다. 이는 Spirng이 IOC 기반의 Framework임을 의미합니다. 우리나라의 공공기관의 웹 서비스 개발 시 사용을 권장하고 있는 **&quot;****전자정부 표준프레임워크&quot;**의 기반 기술로서 쓰이고 있다.">
+<meta name="description" content="Spring Framework  Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다. 객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크!
+Spring Framework &#43; Business Logic (컨텐츠) = Application
+ Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량급 애플리케이션 프레임워크 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리한다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다.">
 <meta name="author" content="Me">
 <link rel="canonical" href="https://ajdeve.github.io/post/spring-framework/" />
 <link href="https://ajdeve.github.io/assets/css/stylesheet.min.3236305eeb06e2d7ad08411cda3ab44a19b3500b1b978b6a6b4b3b9c307a1db7.css" integrity="" rel="preload stylesheet"
@@ -26,8 +27,9 @@ Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션
 
 
 <meta property="og:title" content="Spring Framework" />
-<meta property="og:description" content="Spring Framework Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다.
-Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량화된 솔루션 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리합니다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있습니다. 이는 Spirng이 IOC 기반의 Framework임을 의미합니다. 우리나라의 공공기관의 웹 서비스 개발 시 사용을 권장하고 있는 **&quot;****전자정부 표준프레임워크&quot;**의 기반 기술로서 쓰이고 있다." />
+<meta property="og:description" content="Spring Framework  Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다. 객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크!
+Spring Framework &#43; Business Logic (컨텐츠) = Application
+ Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량급 애플리케이션 프레임워크 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리한다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ajdeve.github.io/post/spring-framework/" />
 <meta property="article:published_time" content="2020-01-26T11:30:03+00:00" />
@@ -35,8 +37,9 @@ Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Spring Framework"/>
-<meta name="twitter:description" content="Spring Framework Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다.
-Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량화된 솔루션 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리합니다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있습니다. 이는 Spirng이 IOC 기반의 Framework임을 의미합니다. 우리나라의 공공기관의 웹 서비스 개발 시 사용을 권장하고 있는 **&quot;****전자정부 표준프레임워크&quot;**의 기반 기술로서 쓰이고 있다."/>
+<meta name="twitter:description" content="Spring Framework  Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다. 객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크!
+Spring Framework &#43; Business Logic (컨텐츠) = Application
+ Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량급 애플리케이션 프레임워크 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리한다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다."/>
 
 <script type="application/ld+json">
 {
@@ -44,12 +47,12 @@ Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션
   "@type": "BlogPosting",
   "headline": "Spring Framework",
   "name": "Spring Framework",
-  "description": "Spring Framework Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다.\nSpring Framework란? …",
+  "description": "Spring Framework  Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다. 객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크!\nSpring Framework + Business Logic (컨텐츠) = …",
   "keywords": [
     "Web"
   ],
-  "articleBody": "Spring Framework Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다.\nSpring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량화된 솔루션 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리합니다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있습니다. 이는 Spirng이 IOC 기반의 Framework임을 의미합니다. 우리나라의 공공기관의 웹 서비스 개발 시 사용을 권장하고 있는 **\"****전자정부 표준프레임워크\"**의 기반 기술로서 쓰이고 있다.  출처: https://goddaehee.tistory.com/156 [갓대희의 작은공간]\n주요 특징 ① \"****경량 컨테이너\"(크기와 부하의 측면)로서 자바 객체를 직접 관리\n 각각의 객체 생성, 소멸과 같은 라이프 사이클을 관리하며 스프링으로부터 필요한 객체를 얻어올 수 있다.  ② 제어 역행(IoC : Inversion of Control)\n  애플리케이션의 느슨한 결합을 도모.\n  컨트롤의 제어권이 사용자가 아니라 프레임워크에 있어 필요에 따라 스프링에서 사용자의 코드를 호출한다.\n  ③ 의존성 주입(DI : Dependency Injection)\n 각각의 계층이나 서비스들 간에 의존성이 존재할 경우 프레임워크가 서로 연결시켜준다.  ③ 관점지향 프로그래밍(AOP : Aspect-Oriented Programming)\n  트랜잭션이나 로깅, 보안과 같이 여러 모듈에서 공통적으로 사용하는 기능의 경우 해당 기능을 분리하여 관리할 수 있다.\n  AOP를 공부하려면 Filter, Interceptor, AOP를 비교하면서 공부하면 이해가 더 빠를 것이다.\n  http://goddaehee.tistory.com/154\n④ 애플리케이션 객체의 생명 주기와 설정을 포함하고 관리한다는 점에서 일종의 \"****컨테이너\"(Container)라고 할 수 있다.\n iBatis, myBatis나 Hibernate 등 완성도가 높은 데이터베이스처리 라이브러리와 연결할 수 있는 인터페이스를 제공한다.  ⑤ 트랜잭션 관리 프레임워크\n 추상화된 트랜잭션 관리를 지원하며 설정파일(xml, java, property 등)을 이용한 선언적인 방식 및 프로그래밍을 통한 방식을 모두 지원한다.  ⑥ 모델-뷰-컨트롤러 패턴\n  웹 프로그램밍 개발 시 거의 표준적인 방식인 **“Spring MVC”**라 불리는 모델-뷰-컨트롤러(MVC) 패턴을 사용한다.\n  DispatcherServlet이 Controller 역할을 담당하여 각종 요청을 적절한 서비스에 분산시켜주며 이를 각 서비스들이 처리를 하여 결과를 생성하고 그 결과는 다양한 형식의 View 서비스들로 화면에 표시될 수 있다.\n  ⑦ 배치 프레임워크\n 스프링은 특정 시간대에 실행하거나 대용량의 자료를 처리하는데 쓰이는 일괄 처리(Batch Processing)을 지원하는 배치 프레임워크를 제공한다. 기본적으로 스프링 배치는 Quartz 기반으로 동작한다.  ⑧ 즉 공통 부분의 소스 코딩이 용이하며 확장성도 매우\n출처: https://goddaehee.tistory.com/156 [갓대희의 작은공간]\nIOC 기반의 Spring Framework  Spring은 IOC 기반의 Framework이다. IOC: Inversion of Control 제어의 역전  이전의 프로그램 객체 결정 및 생성 - 의존성 객체 생성 - 객채 내의 메소드 호출 하는 작업을 반복했다. 이는 각 객체들이 프로그램의 흐름을 결정하고 각 객체를 구성하는 작업에 직접적으로 참여한 것이다. 즉, 모든 작업을 사용자가 제어하는 구조인 것\n제어의 역전 IOC에서의 객체는 자기가 사용할 객체를 선택하거나 생성하지 않는다. 또한 자신이 어디서 만들어지고 어떻게 사용되는지 또한 모릅니다. 자신의 모든 권한을 다른 대상에 위임함으로 써 제어권한을 위임받은 특별한 객체에 의해 결정되고 만들어집니다.\n즉, 제어의 흐름을 사용자가 컨트롤 하지 않고 위임한 특별한 객체에 모든 것을 맡기는 것입니다.\nIOC란 기존 사용자가 모든 작업을 제어하던 것을 특별한 객체에 모든 것을 위임하여 객체의 생성부터 생명주기 등 모든 객체에 대한 제어권이 넘어 간 것을 IOC, 제어의 역전 이라고 합니다.\nIOC의 구성요소 DL: Dependency Lookup 의존성 검색: 컨테이너에서는 객체들을 관리하기 위해 별도의 저장소에 빈을 저장하는데 저장소에 저장되어 있는 개발자들이 컨테이너에서 제공하는 API 를 이용하여 사용하고자 하는 빈 을 검색하는 방법입니다.\nDI: Dependency Injection 의존성 주입: 의존성 주입이란 객체가 서로 의존하는 관계가 되게 의존성을 주입하는 것입니다. 객체지향 프로그램에서 의존성 이란 하나의 객체가 어떠한 다른 객체를 사용하고 있음을 의미합니다. 그렇다면 IOC에서의 DI는 무엇일까요?\n바로 각 클래스 사이에 필요로 하는 의존관계를 빈 설정 정보를 바탕으로 컨테이너가 자동으로 연결해 주는 것입니다.\n출처\nSpring Framework의 POJO란? POJO: Plain Old Java Object POJO란 gettet/setter를 가진 단순 자바 오브젝트로 정의를 하고 있습니다. 이러한 단순 오브젝트는 의존성이 없고 추후 테스트 및 유지보수가 편리한 유연성의 장점을 가집니다. 이러한 장점들로 인해 객체지향적인 다양한 설계와 구현이 가능해지고 POJO의 기반의 Framework가 조명을 받고 있습니다.\nSpring Framework 에서는 이러한 POJO을 지원하고 Spirng 홈페이지에는 이러한 글도 있습니다.\n“POJO를 사용함으로써, 당신의 코드는 더욱 심플해졌고, 그로인해 테스트 하기에 더 좋으며, 유연하고, 요구사항에 따라 기술적 선택을 바꿀수 있도록 바뀌었다.\"\nSpring Framework란 AOP (Aspect Oriented Programming) 관점 지향 프로그래밍이다. 대부분은 객체 지향 프로그래밍을 지향하는 개발 프로세스인데 단점: 관심사가 같은 데이터를 한곳에 모아 분리하고 낮은 결합도를 갖게하여 독립적이고 유연한 모듈로 캠슐화를 하는 과정 속 중복된 코드들이 많아지고 가독성, 확장성, 유지보수성을 떨어뜨린다.\nAOP는 이 단점을 보완하기위해 나옴.\n핵심기능과 공통기능을 분리시켜 핵심 로직에 영향을 끼치지 않게 공통기능을 끼워 넣는 개발 형태이며 이렇게 개발함에 따라 무분별하게 중복되는 코드를 한 곳에 모아 중복 되는 코드를 제거 할 수 있어지고 공통기능을 한 곳에 보관함으로써 공통 기능 하나의 수정으로 모든 핵심기능들의 공통기능을 수정 할 수 있어 효율적인 유지보수가 가능하며 재활용성이 극대****화됩니다.\n물론 AOP로 만들 수 있는 기능은 OOP로 구현 할 수 있는 기능이지만 Spring에서는 AOP를 편리하게 사용 할 수 있도록 이를 지원하고 있습니다.\n추가적으로 AOP를 공부하려면\nSpring Framework의 MVC (Model2) MVC란 (Model View Controller) 구조로 사용자 인터페이스와 비지니스 로직을 분리하여 개발 하는 것 입니다. MVC에서는 Model1과 Model2로 나누어져 있으며 일반적인 MVC는 Model2를 지칭합니다.\nModel\nModel에서는 데이터처리를 담당하는 부분입니다. Model부분은 Serivce영역과 DAO영역으로 나누어지게 되고 여기서 중요한 것은 Service 부분은 불필요하게 HTTP통신을 하지 않아야하고 request나 response와 같은 객체를 매개변수로 받아선 안된다. 또한 Model 부분의 Service는 view에 종속적인 코드가 없어야 하고 View 부분이 변경되더라도 Service 부분은 그대로 재사용 할 수 있어야 한다.\nModel에서는 View와 Controller 어떠한 정보도 가지고 있어서는 안된다.\nView\nView는 사용자 Interface를 담당하며 사용자에게 보여지는 부분입니다. View는 Controller를 통해 모델에 데이터에 대한 시각화를 담당하며 View는 자신이 요청을 보낼 Controller의 정보만 알고 있어야 하는 것이 핵심이다.\nModel이 가지고 있는 정보를 저장해서는 안되며 Model, Controller에 구성 요소를 알아서는 안된다.\nController\nController에서는 View에 받은 요청을 가공하여 Model(Service 영역)에 이를 전달한다. 또한 Model로 부터 받은 결과를 View로 넘겨주는 역할을 합니다. Controller에서는 모든 요청 에러와 모델 에러를 처리하며 View와 Controller에 정보를 알고 있어야한다.\nModel과 View의 정보에 대해 알고 있어야한다.\n이렇게 Model, View, Controller를 나누는 이유는 소스를 분리함으로서 각 소스의 목적이 명확해 지고 유지보수하는데 있어서 용이하기 때문이다. Model의 Service영역은 자신을 어떠한 Controller가 호출하든 상관없이 정해진 매개변수만 받는다면 자신의 비즈니스 로직을 처리할 수 있어야한다.\n즉, 모듈화를 통해 어디서든 재사용이 가능하여야 한다는 뜻이다.\n이말은 View의 정보가 달라지더라도 Controller에서 Service에 넘겨줄 매개변수 데이터 가공만 처리하면 되기 때문에 유지보수 비용을 절감 할 수 있는 효과가 있다. 또한 Service영역의 재사용이 용이하기 때문에 확장성 부분에서도 큰 효과를 볼 수 있는 장점이있다.\n구조 Spring Core\nSpring Core는 Spring Container을 의미합니다. core라는 말 그대로 Container는 Spring Framework의 핵심이며 그중 핵심은 Bean Factory Container입니다. 그 이유는 바로 Bean Factory는 IOC패턴을 적용하여 객체 구성 부터 의존성 처리까지 모든 일을 처리하는 역할을 하고 있기 때문입니다.\n  Spring 프레임워크의 근간이 되는요소. IoC(또는 DI) 기능을 지원하는 영역을 담당.\n  BeanFactory를 기반으로 Bean 클래스들을 제어할 수 있는 기능을 지원\n  출처: https://goddaehee.tistory.com/156 [갓대희의 작은공간]\nSpring Context\nSpring context는 Spring Framework의 context 정보들을 제공하는 설정 파일입니다. Spring Context에는 JNDI, EJB, Validation, Scheduiling, Internaliztaion 등 엔터프라이즈 서비스들을 포함하고 있습니다\n  Spring Core 바로 위에 있으면서 Spring Core에서 지원하는 기능외에 추가적인 기능들과 좀 더 쉬운 개발이 가능하도록 지원\n  또한 JNDI, EJB등을 위한 Adaptor들을 포함\n  출처: https://goddaehee.tistory.com/156 [갓대희의 작은공간]\nSpring AOP\nSpring AOP module은 Spring Framework에서 관점지향 프로그래밍을 할 수 있고 AOP를 적용 할수 있게 도와주는 Module입니다. 해당 AOP에 대한 내용은 위에서 설명 했기 때문에 넘어 가도록 하겠습니다.\n Spring 프레임워크에 Aspect Oriented Programming을 지원하는 기능이다. 이 기능은 AOP Alliance 기반하에서 개발  Spring DAO\nDAO란 Data Access Object의 약자로 Database Data에 접근하는 객체입니다. Spring JDBC DAO는 추상 레이어를 지원함으로써 코딩이나 예외처리 하는 부분을 간편화 시켜 일관된 방법으로 코드를 짤 수 있게 도와줍니다.\n  지금까지 우리들이 일반적으로 많이 사용해왔던 JDBC 기반하의 DAO개발을 좀 더 쉽고, 일관된 방법으로 개발하는 것이 가능하도록 지원\n  Spring DAO를 이용할 경우 지금까지 개발하던 DAO보다 적은 코드와 쉬운 방법으로 DAO를 개발하는 것이 가능\n  Spring ORM\nORM이란 Object relational mapping의 약자로 간단하게 객체와의 관계 설정을 하는 것입니다. Spring에서는 Ibatis, Hibernate, JDO 등 인기있는 객체 관계형 도구(OR도구)를 사용 할 수 있도록 지원합니다\n Object Relation Mapping 프레임워크인 Hibernate, IBatis, JDO와의 결합을 지원하기 위한 기능 Spring ORM을 이용할 경우 Hibernate, IBatis, JDO 프레임워크와 쉽게 통합하는 것이 가능 Object Relation Mapping 프레임워크인 Hibernate, IBatis, JDO와의 결합을 지원하기 위한 기능 Spring ORM을 이용할 경우 Hibernate, IBatis, JDO 프레임워크와 쉽게 통합하는 것이 가능  Spring Web\nSpirng에서 Web context module은 Application module에 내장되어 있고 Web기반의 응용프로그램에 대한 Context를 제공하여 일반적인 Web Application 개발에 필요한 기본적인 기능을 지원합니다. 그로인해 Jakarta Structs 와의 통합을 지원하고 있습니다\nSpring MVC\nSpring에서는 MVC에서는 Model2 구조로 Apllication을 만들 수 있도록 지원합니다. MVC (Model-View-Controller) 프레임 워크는 웹 응용 프로그램을 작성하기위한 완전한 기능을 갖춘 MVC를 구현합니다. MVC 프레임 워크는 전략 인터페이스를 통해 고급 구성 가능하며 JSP, Velocity, Tiles, iText 및 POI를 포함한 수많은 뷰 기술을 지원하고 있습니다.\n[Spring] Filter, Interceptor, AOP 차이 및 정리+ https://goddaehee.tistory.com/154?category=173020\n",
-  "wordCount" : "1308",
+  "articleBody": "Spring Framework  Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다. 객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크!\nSpring Framework + Business Logic (컨텐츠) = Application\n Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량급 애플리케이션 프레임워크 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리한다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다. 우리나라의 공공기관의 웹 서비스 개발 시 사용을 권장하고 있는 전자정부 표준프레임워크의 기반 기술로서 쓰이고 있다. 표준화가 되어있는 코드를 통해서 어떤 개발자가 봐도 해결할 수 있게 한다. 객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크  주요 특징 1. 경량 컨테이너(크기와 부하의 측면)로서 자바 객체를 직접 관리 각각의 객체 생성, 소멸과 같은 라이프 사이클을 관리하며 스프링으로부터 필요한 객체를 얻어올 수 있다. 돈도 적게 들어감.\n2. 제어 역행 (IoC : Inversion of Control) 컨트롤의 제어권이 사용자가 아니라 프레임워크에 있어 필요에 따라 스프링에서 사용자의 코드를 호출한다.\nSpring은 IOC (Inversion of Control 제어의 역전) 기반의 Framework이다. 이전의 프로그램 객체 결정 및 생성 - 의존성 객체 생성 - 객채 내의 메소드 호출 하는 작업을 반복했다. 이는 각 객체들이 프로그램의 흐름을 결정하고 각 객체를 구성하는 작업에 직접적으로 참여한 것이다.\n즉, 모든 작업을 사용자가 제어하는 구조인 것이였는데 IOC에서는 객체는 자기가 사용할 객체를 선택하거나 생성하지 않는다. 또한 자신이 어디서 만들어지고 어떻게 사용되는지 또한 모른다. 자신의 모든 권한을 다른 대상에 위임함으로 써 제어권한을 위임받은 특별한 객체에 의해 결정되고 만들어진다.\n즉, 제어의 흐름을 사용자가 컨트롤 하지 않고 위임한 특별한 객체에 모든 것을 맡기는 구조\nSpring은 IOC 컨테이너이다. 빈 객체의 생성(new), 빈 객체간 관계 설정(set), 빈 객체 관리(singleton등) 가 컨테이너 주요기능 으로 Spring Container가 관리한다.\nIOC의 구성요소 DL: Dependency Lookup 의존성 검색: 컨테이너에서는 객체들을 관리하기 위해 별도의 저장소에 빈을 저장하는데 저장소에 저장되어 있는 개발자들이 컨테이너에서 제공하는 API 를 이용하여 사용하고자 하는 빈 을 검색하는 방법\nDI: Dependency Injection (제일 중요한 컨셉중 하나) 의존성 주입: 의존성 주입이란 객체가 서로 의존하는 관계가 되게 의존성을 주입하는 것이며 객체지향 프로그램에서 의존성 이란 하나의 객체가 어떠한 다른 객체를 사용하고 있음을 의미한다. 그리고 객체는 의존하고 있는 객체를 코드 상에서 직접 생성하고나 검색할 필요가 없다.\nIOC에서의 DI란 바로 각 클래스 사이에 필요로 하는 의존관계를 빈 설정 정보를 바탕으로 컨테이너가 자동으로 연결해 주는 것이다.\n출처\n3. 의존성 주입 (DI : Dependency Injection)  각각의 계층이나 서비스들 간에 의존성이 존재할 경우 프레임워크가 서로 연결시켜준다.  원래 코드\npublic class Store { private Item item; public Store() { item = new ItemImpl1(); } } DI 코드\npublic class Store { private Item item; public Store(Item item) { this.item = item; } } https://www.javaguides.net/2018/06/guide-to-dependency-injection-in-spring.html\n4. 관점지향 프로그래밍 (AOP : Aspect-Oriented Programming)  트랜잭션이나 로깅, 보안과 같이 여러 모듈에서 공통적으로 사용하는 기능의 경우 해당 기능을 분리하여 관리할 수 있다.  Spring Framework란 AOP (Aspect Oriented Programming) 관점 지향 프로그래밍이다. 대부분은 객체 지향 프로그래밍을 지향하는 개발 프로세스인데, 중복된 코드들이 많아지고 가독성, 확장성, 유지보수성을 떨어뜨린다. AOP는 이 단점을 보완한다.\nSpring은 자체적으로 AOP를 지원하고 있기 때문에 트랜잭션이나 로깅, 보안과 같이 여러 비즈니스 모듈에서 공통적으로 필요로 하는 공통관심 사항을 핵심 로직과 분리시켜 각 모듈에 적용할 수 있음\n여러 오브젝트에 공통되는 코드를 모듈화하여 무분별하게 중복되는 코드를 한 곳에 모아 중복 되는 코드를 제거 할 수 있어지고 공통기능을 한 곳에 보관함으로써 공통 기능 하나의 수정으로 모든 핵심기능들의 공통기능을 수정 할 수 있어 효율적인 유지보수가 가능하며 재활용성이 극대화 될 수 있다.\n물론 AOP로 만들 수 있는 기능은 OOP로 구현 할 수 있는 기능이지만 Spring에서는 AOP를 편리하게 사용 할 수 있도록 이를 지원하고 있다.\n추가적으로 AOP를 공부하려면 클릭\n5.영속성과 관련된 다양한 API 지원 및 연동 지원  iBatis, myBatis나 Hibernate 등 완성도가 높은 데이터베이스처리 라이브러리와 연결할 수 있는 인터페이스를 제공한다.  6. 트랜잭션 관리 프레임워크  추상화된 트랜잭션 관리를 지원하며 설정파일(xml, java, property 등)을 이용한 선언적인 방식 및 프로그래밍을 통한 방식을 모두 지원한다.  7. 모델-뷰-컨트롤러 (MVC) 패턴   웹 프로그램밍 개발 시 거의 표준적인 방식인 “Spring MVC” 라 불리는 모델-뷰-컨트롤러(MVC) 패턴을 사용한다.\n  DispatcherServlet이 Controller 역할을 담당하여 각종 요청을 적절한 서비스에 분산시켜주며 이를 각 서비스들이 처리를 하여 결과를 생성하고 그 결과는 다양한 형식의 View 서비스들로 화면에 표시될 수 있다. (추후에 Web에 들어가게 되면 이해가 될듯함)\n  Spring Framework의 MVC (Model2)  MVC란 (Model View Controller) 구조로 사용자 인터페이스와 비지니스 로직을 분리하여 개발 하는 것 MVC에서는 Model1과 Model2로 나누어져 있으며 일반적인 MVC는 Model2를 지칭  MVC1 MVC2 MVC1과는 다르게 Controller, View가 분리되어 있다.\nSpring MVC Pattern 스프링에서는 유저의 요청을 받는 DispathcerServlet이 핵심이며 이것이 Front Controller의 역할을 맡는다. Front Controller(프런트 컨트롤러)란, 우선적으로 유저(클라이언트)의 모든 요청을 받고, 그 요청을 분석하여 세부 컨트롤러들에게 필요한 작업을 나눠주게 된다.\nModel\n 데이터처리를 담당하는 부분 Serivce영역과 DAO영역으로 나누어지게 되고 여기서 중요한 것은 Service 부분은 불필요하게 HTTP통신을 하지 않아야하고 request나 response와 같은 객체를 매개변수로 받아선 안된다. 또한 Model 부분의 Service는 view에 종속적인 코드가 없어야 하고 View 부분이 변경되더라도 Service 부분은 그대로 재사용 할 수 있어야 한다. Model에서는 View와 Controller 어떠한 정보도 가지고 있어서는 안된다.  View\n 사용자 Interface를 담당하며 사용자에게 보여지는 부분 View는 Controller를 통해 모델에 데이터에 대한 시각화를 담당하며 View는 자신이 요청을 보낼 Controller의 정보만 알고 있어야 하는 것이 핵심 Model이 가지고 있는 정보를 저장해서는 안되며 Model, Controller에 구성 요소를 알아서는 안됨  Controller\n Controller에서는 View에 받은 요청을 가공하여 Model(Service 영역)에 이를 전달한다. 또한 Model로 부터 받은 결과를 View로 넘겨주는 역할을 한다. Controller에서는 모든 요청 에러와 모델 에러를 처리하며 View와 Controller에 정보를 알고 있어야한다. Model과 View의 정보에 대해 알고 있어야한다.  이렇게 Model, View, Controller를 나누는 이유는 소스를 분리함으로서 각 소스의 목적이 명확해 지고 유지보수하는데 있어서 용이하기 때문이다. Model의 Service영역은 자신을 어떠한 Controller가 호출하든 상관없이 정해진 매개변수만 받는다면 자신의 비즈니스 로직을 처리할 수 있어야한다.\n즉, 모듈화를 통해 어디서든 재사용이 가능하여야 한다는 뜻이다.\n이말은 View의 정보가 달라지더라도 Controller에서 Service에 넘겨줄 매개변수 데이터 가공만 처리하면 되기 때문에 유지보수 비용을 절감 할 수 있는 효과가 있다. 또한 Service영역의 재사용이 용이하기 때문에 확장성 부분에서도 큰 효과를 볼 수 있는 장점이있다.\n8. 배치 프레임워크  스프링은 특정 시간대에 실행하거나 대용량의 자료를 처리하는데 쓰이는 일괄 처리(Batch Processing)을 지원하는 배치 프레임워크를 제공한다. 기본적으로 스프링 배치는 Quartz 기반으로 동작한다. Quartz: 자바 스케줄링 오픈소즈 프레임워크 , Quartz is an open source job-scheduling framework written entirely in Java and designed for use in both J2SE and J2EE applications. https://www.baeldung.com/quartz  9. POJO Spring Framework의 POJO란? POJO: Plain Old Java Object POJO란 특정 규약 및 환경에 종속적이지 않은 평범한 일반 자바 클래스 의미\nPOJO의 조건\n  특정규약에 종속되지 않는다.\nPOJO는 자바 언어와 꼭 필요한 API 외에는 종속되지 않아야 한다. EJB와 같이 특정 규약을 따라 비즈니스 컴포넌트를 만들어야 하는 경우는 POJO가 아니다. 특정 클래스를 상속해서 만들어야 하는 규약이 있는 경우도 마찬가지다.\n  특정 환경에 종속되지 않는다.\n특정 환경에 종속적이어야만 동작하는 오브젝트도 POJO라고 할 수 없다. POJO는 환경에 독립적이어야 한다.\n  POJO의 장점\n  특정기술과 환경에 종속되지 않은 오브젝트는 그만큼 깔끔한 코드가 될 수 있다.\n  POJO로 개발된 코드는 자동화된 테스트에 매우 유리하다.\n  객체지향적인 설계를 자유롭게 적용할 수 있다.\n  Spring Framework 에서는 POJO을 지원한다.\n Spring 개발에 POJO 클래스를 활용할 수 있다는건 특정 구현 기술에 종속적이지 않다는 의미 개발 후의 테스트시에도 DB와 특정 서버 없이도 테스트를 할 수 있기 때문에 개발이 빨라진다는 장점이 있음 EJB와 다르게 기본 자바 클래스 코드 그대로 사용가능함  10. 트랜잭션 처리를 위한 일관된 방법 제공  벤더사에 상관없이 처리를 일관된 방법을 사용하여 할 수 있게 한다. JDBC API 및 JPA를 사용하거나 컨테이너가 제공하는 트랜잭션을 사용하든, 설정 파일을 통해 트랜잭션 관련 정보를 관리하기 때문에 특정 트랜잭션 구현 방법에 상관없이 동일 한 코드를 여러 환경에서 사용 가능  즉 공통 부분의 소스 코딩이 용이하며 확장성도 매우 좋다\n출처\n구조 Spring Core  Spring Container를 의미한다. core라는 말 그대로 Container는 Spring Framework의 핵심이며 그중 핵심은 Bean Factory Container이다. 그 이유는 바로 Bean Factory는 IOC패턴을 적용하여 객체 구성 부터 의존성 처리까지 모든 일을 처리하는 역할을 하고 있기 때문이다. Spring 프레임워크의 근간이 되는요소. IoC(또는 DI) 기능을 지원하는 영역을 담당. BeanFactory를 기반으로 Bean 클래스들을 제어할 수 있는 기능을 지원 One main between BeanFactory and ApplicationContext is that BeanFactory only instantiates bean when we call getBean() method while ApplicationContext instantiates singleton bean when the container is started, It doesn’t wait for getBean() method to be called.  Spring Context  Spring context는 Spring Framework의 context 정보들을 제공하는 설정 파일이다. Spring Context에는 JNDI, EJB, Validation, Scheduiling, Internaliztaion 등 엔터프라이즈 서비스들을 포함 Spring Core 바로 위에 있으면서 Spring Core에서 지원하는 기능외에 추가적인 기능들과 좀 더 쉬운 개발이 가능하도록 지원 또한 JNDI, EJB등을 위한 Adaptor들을 포함  Spring AOP  Spring AOP module은 Spring Framework에서 관점지향 프로그래밍을 할 수 있고 AOP를 적용 할수 있게 도와주는 Module이다. Spring 프레임워크에 Aspect Oriented Programming을 지원하는 기능이다.  Spring DAO  DAO란 Data Access Object의 약자로 Database Data에 접근하는 객체이다. Spring JDBC DAO는 추상 레이어를 지원함으로써 코딩이나 예외처리 하는 부분을 간편화 시켜 일관된 방법으로 코드를 짤 수 있게 도와준다. 지금까지 우리들이 일반적으로 많이 사용해왔던 JDBC 기반하의 DAO개발을 좀 더 쉽고, 일관된 방법으로 개발하는 것이 가능하도록 지원 Spring DAO를 이용할 경우 지금까지 개발하던 DAO보다 적은 코드와 쉬운 방법으로 DAO를 개발하는 것이 가능  Code 예시 DAO public abstract class AbstractJpaDAO T extends Serializable  { private Class T  clazz; @PersistenceContext EntityManager entityManager; public final void setClazz( Class T  clazzToSet ){ this.clazz = clazzToSet; } public T findOne( long id ){ return entityManager.find( clazz, id ); } public List T  findAll(){ return entityManager.createQuery( \"from \" + clazz.getName() ) .getResultList(); } public void create( T entity ){ entityManager.persist( entity ); } public T update( T entity ){ return entityManager.merge( entity ); } public void delete( T entity ){ entityManager.remove( entity ); } public void deleteById( long entityId ){ T entity = findOne( entityId ); delete( entity ); } } The persistence post processor is either created explicitly by defining it in the configuration or automatically, by defining context:annotation-config or context:component-scan in the namespace config.\nAlso, note that the entity Class is passed in the constructor to be used in the generic operations:\n@Repository public class FooDAO extends AbstractJPADAO Foo  implements IFooDAO{ public FooDAO(){ setClazz(Foo.class ); } } Spring ORM  ORM이란 Object relational mapping의 약자로 간단하게 객체와의 관계 설정을 하는 것이다. Spring에서는 Ibatis, Hibernate, JDO 등 인기있는 객체 관계형 도구(OR도구)를 사용 할 수 있도록 지원합니다 Object Relation Mapping 프레임워크인 Hibernate, IBatis, JDO와의 결합을 지원하기 위한 기능 Spring ORM을 이용할 경우 Hibernate, IBatis, JDO 프레임워크와 쉽게 통합하는 것이 가능  코드 예시: https://www.journaldev.com/7655/spring-orm-example-jpa-hibernate-transaction\nSpring Web  Spirng에서 Web context module은 Application module에 내장되어 있고 Web기반의 응용프로그램에 대한 Context를 제공하여 일반적인 Web Application 개발에 필요한 기본적인 기능을 지원한다. 그로인해 Jakarta Structs 와의 통합을 지원한다.  Spring MVC  Spring에서는 MVC에서는 Model2 구조로 Aplication을 만들 수 있도록 지원한다. MVC (Model-View-Controller) 프레임 워크는 웹 응용 프로그램을 작성하기위한 완전한 기능을 갖춘 MVC를 구현한다. MVC 프레임 워크는 전략 인터페이스를 통해 고급 구성 가능하며 JSP, Velocity, Tiles, iText 및 POI를 포함한 수많은 뷰 기술을 지원하고 있다.  https://goddaehee.tistory.com/154?category=173020\n[Spring] Filter, Interceptor, AOP 차이 및 정리+ https://goddaehee.tistory.com/154?category=173020\nSpring Annotation정리 https://velog.io/@gillog/Spring-Annotation-%EC%A0%95%EB%A6%AC\n",
+  "wordCount" : "1703",
   "inLanguage": "en",
   "datePublished": "2020-01-26T11:30:03Z",
   "dateModified": "2020-01-26T11:30:03Z",
@@ -160,7 +163,7 @@ Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션
     </h1>
     <div class="post-meta">
 
-January 26, 2020&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Me
+January 26, 2020&nbsp;·&nbsp;8 min&nbsp;·&nbsp;Me
 
     </div>
   </header> 
@@ -173,194 +176,311 @@ January 26, 2020&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Me
       <blockquote><ul><li>
         <a href="#spring-framework" aria-label="Spring Framework">Spring Framework</a><ul>
             <li>
-        <a href="#spring-framework%eb%9e%80" aria-label="Spring Framework란?">Spring Framework란?</a></li><li>
-        <a href="#%ec%a3%bc%ec%9a%94-%ed%8a%b9%ec%a7%95" aria-label="주요 특징">주요 특징</a></li><li>
-        <a href="#ioc-%ea%b8%b0%eb%b0%98%ec%9d%98-spring-framework" aria-label="IOC 기반의 Spring Framework">IOC 기반의 Spring Framework</a><ul>
+        <a href="#spring-framework%eb%9e%80" aria-label="Spring Framework란?">Spring Framework란?</a></li></ul>
+    </li><li>
+        <a href="#%ec%a3%bc%ec%9a%94-%ed%8a%b9%ec%a7%95" aria-label="주요 특징">주요 특징</a><ul>
             <li>
-        <a href="#%ec%9d%b4%ec%a0%84%ec%9d%98-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%a8" aria-label="이전의 프로그램">이전의 프로그램</a></li><li>
-        <a href="#%ec%a0%9c%ec%96%b4%ec%9d%98-%ec%97%ad%ec%a0%84" aria-label="제어의 역전">제어의 역전</a><ul>
+        <a href="#1-%ea%b2%bd%eb%9f%89-%ec%bb%a8%ed%85%8c%ec%9d%b4%eb%84%88%ed%81%ac%ea%b8%b0%ec%99%80-%eb%b6%80%ed%95%98%ec%9d%98-%ec%b8%a1%eb%a9%b4%eb%a1%9c%ec%84%9c-%ec%9e%90%eb%b0%94-%ea%b0%9d%ec%b2%b4%eb%a5%bc-%ec%a7%81%ec%a0%91-%ea%b4%80%eb%a6%ac" aria-label="1. 경량 컨테이너(크기와 부하의 측면)로서 자바 객체를 직접 관리">1. 경량 컨테이너(크기와 부하의 측면)로서 자바 객체를 직접 관리</a></li><li>
+        <a href="#2-%ec%a0%9c%ec%96%b4-%ec%97%ad%ed%96%89-ioc--inversion-of-control" aria-label="2. 제어 역행 (IoC : Inversion of Control)">2. 제어 역행 (IoC : Inversion of Control)</a><ul>
             <li>
+        <a href="#spring%ec%9d%80-ioc-inversion-of-control-%ec%a0%9c%ec%96%b4%ec%9d%98-%ec%97%ad%ec%a0%84-%ea%b8%b0%eb%b0%98%ec%9d%98-framework%ec%9d%b4%eb%8b%a4" aria-label="Spring은 IOC (Inversion of Control 제어의 역전) 기반의 Framework이다.">Spring은 IOC (Inversion of Control 제어의 역전) 기반의 Framework이다.</a></li><li>
+        <a href="#spring%ec%9d%80-ioc-%ec%bb%a8%ed%85%8c%ec%9d%b4%eb%84%88%ec%9d%b4%eb%8b%a4" aria-label="Spring은 IOC 컨테이너이다.">Spring은 IOC 컨테이너이다.</a></li><li>
         <a href="#ioc%ec%9d%98-%ea%b5%ac%ec%84%b1%ec%9a%94%ec%86%8c" aria-label="IOC의 구성요소">IOC의 구성요소</a><ul>
             <li>
         <a href="#dl-dependency-lookup" aria-label="DL: Dependency Lookup">DL: Dependency Lookup</a></li><li>
-        <a href="#di-dependency-injection" aria-label="DI: Dependency Injection">DI: Dependency Injection</a></li></ul>
-    </li></ul>
+        <a href="#di-dependency-injection-%ec%a0%9c%ec%9d%bc-%ec%a4%91%ec%9a%94%ed%95%9c-%ec%bb%a8%ec%85%89%ec%a4%91-%ed%95%98%eb%82%98" aria-label="DI: Dependency Injection (제일 중요한 컨셉중 하나)">DI: Dependency Injection (제일 중요한 컨셉중 하나)</a></li></ul>
     </li></ul>
     </li><li>
-        <a href="#spring-framework%ec%9d%98-pojo%eb%9e%80" aria-label="Spring Framework의 POJO란?">Spring Framework의 POJO란?</a></li><li>
-        <a href="#spring-framework%eb%9e%80-aop-aspect-oriented-programming-%ea%b4%80%ec%a0%90-%ec%a7%80%ed%96%a5-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d%ec%9d%b4%eb%8b%a4" aria-label="Spring Framework란 AOP (Aspect Oriented Programming) 관점 지향 프로그래밍이다.">Spring Framework란 AOP (Aspect Oriented Programming) 관점 지향 프로그래밍이다.</a></li><li>
+        <a href="#3-%ec%9d%98%ec%a1%b4%ec%84%b1-%ec%a3%bc%ec%9e%85-di---dependency-injection" aria-label="3. 의존성 주입 (DI  : Dependency Injection)">3. 의존성 주입 (DI  : Dependency Injection)</a></li><li>
+        <a href="#4-%ea%b4%80%ec%a0%90%ec%a7%80%ed%96%a5-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d-aop--aspect-oriented-programming" aria-label="4. 관점지향 프로그래밍 (AOP : Aspect-Oriented Programming)">4. 관점지향 프로그래밍 (AOP : Aspect-Oriented Programming)</a><ul>
+            <li>
+        <a href="#spring-framework%eb%9e%80-aop-aspect-oriented-programming-%ea%b4%80%ec%a0%90-%ec%a7%80%ed%96%a5-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d%ec%9d%b4%eb%8b%a4" aria-label="Spring Framework란 AOP (Aspect Oriented Programming) 관점 지향 프로그래밍이다.">Spring Framework란 AOP (Aspect Oriented Programming) 관점 지향 프로그래밍이다.</a></li></ul>
+    </li><li>
+        <a href="#5%ec%98%81%ec%86%8d%ec%84%b1%ea%b3%bc-%ea%b4%80%eb%a0%a8%eb%90%9c-%eb%8b%a4%ec%96%91%ed%95%9c-api-%ec%a7%80%ec%9b%90-%eb%b0%8f-%ec%97%b0%eb%8f%99-%ec%a7%80%ec%9b%90" aria-label="5.영속성과 관련된 다양한 API 지원 및 연동 지원">5.영속성과 관련된 다양한 API 지원 및 연동 지원</a></li><li>
+        <a href="#6-%ed%8a%b8%eb%9e%9c%ec%9e%ad%ec%85%98-%ea%b4%80%eb%a6%ac-%ed%94%84%eb%a0%88%ec%9e%84%ec%9b%8c%ed%81%ac" aria-label="6. 트랜잭션 관리 프레임워크">6. 트랜잭션 관리 프레임워크</a></li><li>
+        <a href="#7-%eb%aa%a8%eb%8d%b8-%eb%b7%b0-%ec%bb%a8%ed%8a%b8%eb%a1%a4%eb%9f%ac-mvc--%ed%8c%a8%ed%84%b4" aria-label="7. 모델-뷰-컨트롤러 (MVC)  패턴">7. 모델-뷰-컨트롤러 (MVC)  패턴</a><ul>
+            <li>
         <a href="#spring-framework%ec%9d%98-mvc-model2" aria-label="Spring Framework의 MVC (Model2)">Spring Framework의 MVC (Model2)</a></li><li>
-        <a href="#%ea%b5%ac%ec%a1%b0" aria-label="구조">구조</a></li><li>
-        <a href="#spring-filter-interceptor-aop-%ec%b0%a8%ec%9d%b4-%eb%b0%8f-%ec%a0%95%eb%a6%ac" aria-label="[Spring] Filter, Interceptor, AOP 차이 및 정리&#43;">[Spring] Filter, Interceptor, AOP 차이 및 정리+</a></li></ul>
-</li></ul>
+        <a href="#mvc1" aria-label="MVC1">MVC1</a></li><li>
+        <a href="#mvc2" aria-label="MVC2">MVC2</a></li><li>
+        <a href="#spring-mvc-pattern" aria-label="Spring MVC Pattern">Spring MVC Pattern</a></li></ul>
+    </li><li>
+        <a href="#8-%eb%b0%b0%ec%b9%98-%ed%94%84%eb%a0%88%ec%9e%84%ec%9b%8c%ed%81%ac" aria-label="8. 배치 프레임워크">8. 배치 프레임워크</a></li><li>
+        <a href="#9-pojo" aria-label="9. POJO">9. POJO</a><ul>
+            <li>
+        <a href="#spring-framework%ec%9d%98-pojo%eb%9e%80" aria-label="Spring Framework의 POJO란?">Spring Framework의 POJO란?</a></li></ul>
+    </li><li>
+        <a href="#10-%ed%8a%b8%eb%9e%9c%ec%9e%ad%ec%85%98-%ec%b2%98%eb%a6%ac%eb%a5%bc-%ec%9c%84%ed%95%9c-%ec%9d%bc%ea%b4%80%eb%90%9c-%eb%b0%a9%eb%b2%95-%ec%a0%9c%ea%b3%b5" aria-label="10. 트랜잭션 처리를 위한 일관된 방법 제공">10. 트랜잭션 처리를 위한 일관된 방법 제공</a></li></ul>
+    </li><li>
+        <a href="#%ea%b5%ac%ec%a1%b0" aria-label="구조">구조</a><ul>
+            <li>
+        <a href="#spring-core" aria-label="Spring Core">Spring Core</a></li><li>
+        <a href="#spring-context" aria-label="Spring Context">Spring Context</a></li><li>
+        <a href="#spring-aop" aria-label="Spring AOP">Spring AOP</a></li><li>
+        <a href="#spring-dao" aria-label="Spring DAO">Spring DAO</a><ul>
+            <li>
+        <a href="#code-%ec%98%88%ec%8b%9c" aria-label="Code 예시">Code 예시</a><ul>
+            <li>
+        <a href="#dao" aria-label="DAO">DAO</a></li></ul>
+    </li></ul>
+    </li><li>
+        <a href="#spring-orm" aria-label="Spring ORM">Spring ORM</a></li><li>
+        <a href="#spring-web" aria-label="Spring Web">Spring Web</a></li><li>
+        <a href="#spring-mvc" aria-label="Spring MVC">Spring MVC</a></li></ul>
+    </li><li>
+        <a href="#spring-filter-interceptor-aop-%ec%b0%a8%ec%9d%b4-%eb%b0%8f-%ec%a0%95%eb%a6%ac" aria-label="[Spring] Filter, Interceptor, AOP 차이 및 정리&#43;">[Spring] Filter, Interceptor, AOP 차이 및 정리+</a></li><li>
+        <a href="#spring-annotation%ec%a0%95%eb%a6%ac" aria-label="Spring Annotation정리">Spring Annotation정리</a></li></ul>
       </blockquote>
     </details>
   </div>
   <div class="post-content">
 <h1 id="spring-framework">Spring Framework<a hidden class="anchor" aria-hidden="true" href="#spring-framework">#</a></h1>
 <p><img src="https://static.javatpoint.com/images/spimages/spring1.png" alt="spring framework tutorial"></p>
-<p>Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다.</p>
+<blockquote>
+<p>Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다.
+객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크!</p>
+<p>Spring Framework + Business Logic (컨텐츠) = Application</p>
+</blockquote>
 <h2 id="spring-framework란">Spring Framework란?<a hidden class="anchor" aria-hidden="true" href="#spring-framework란">#</a></h2>
 <ul>
-<li>자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량화된 솔루션</li>
-<li><strong>Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리</strong>합니다.  객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있습니다.</li>
-<li>이는 Spirng이 IOC 기반의 Framework임을 의미합니다.</li>
-<li>우리나라의 공공기관의 웹 서비스 개발 시 사용을 권장하고 있는 **&quot;****전자정부 표준프레임워크&quot;**의 기반 기술로서 쓰이고 있다.</li>
+<li>자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 <strong>엔터프라이즈급</strong> 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 <strong>경량급 애플리케이션 프레임워크</strong></li>
+<li><strong>Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리</strong>한다.  객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다.</li>
+<li>우리나라의 공공기관의 웹 서비스 개발 시 사용을 권장하고 있는 <strong>전자정부 표준프레임워크</strong>의 기반 기술로서 쓰이고 있다.</li>
+<li>표준화가 되어있는 코드를 통해서 어떤 개발자가 봐도 해결할 수 있게 한다.</li>
+<li>객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크</li>
 </ul>
-<p>출처: <a href="https://goddaehee.tistory.com/156">https://goddaehee.tistory.com/156</a> [갓대희의 작은공간]</p>
-<h2 id="주요-특징">주요 특징<a hidden class="anchor" aria-hidden="true" href="#주요-특징">#</a></h2>
-<p>① <strong>&quot;****경량 컨테이너&quot;</strong>(크기와 부하의 측면)로서 자바 객체를 직접 관리</p>
-<ul>
-<li>각각의 객체 생성, 소멸과 같은 라이프 사이클을 관리하며 스프링으로부터 필요한 객체를 얻어올 수 있다.</li>
-</ul>
-<p>②  <strong>제어 역행</strong>(<strong>IoC</strong> : Inversion of Control)</p>
-<ul>
-<li>
-<p>애플리케이션의 느슨한 결합을 도모.</p>
-</li>
-<li>
-<p>컨트롤의 제어권이 사용자가 아니라 프레임워크에 있어 필요에 따라 스프링에서 사용자의 코드를 호출한다.</p>
-</li>
-</ul>
-<p>③  <strong>의존성 주입</strong>(<strong>DI</strong>  : Dependency Injection)</p>
+<h1 id="주요-특징">주요 특징<a hidden class="anchor" aria-hidden="true" href="#주요-특징">#</a></h1>
+<h2 id="1-경량-컨테이너크기와-부하의-측면로서-자바-객체를-직접-관리">1. 경량 컨테이너(크기와 부하의 측면)로서 자바 객체를 직접 관리<a hidden class="anchor" aria-hidden="true" href="#1-경량-컨테이너크기와-부하의-측면로서-자바-객체를-직접-관리">#</a></h2>
+<p>각각의 객체 생성, 소멸과 같은 라이프 사이클을 관리하며 스프링으로부터 필요한 객체를 얻어올 수 있다. 돈도 적게 들어감.</p>
+<h2 id="2-제어-역행-ioc--inversion-of-control">2. 제어 역행 (IoC : Inversion of Control)<a hidden class="anchor" aria-hidden="true" href="#2-제어-역행-ioc--inversion-of-control">#</a></h2>
+<p>컨트롤의 제어권이 사용자가 아니라 프레임워크에 있어 필요에 따라 <strong>스프링에서</strong> 사용자의 코드를 호출한다.</p>
+<h3 id="spring은-ioc-inversion-of-control-제어의-역전-기반의-framework이다">Spring은 IOC (Inversion of Control 제어의 역전) 기반의 Framework이다.<a hidden class="anchor" aria-hidden="true" href="#spring은-ioc-inversion-of-control-제어의-역전-기반의-framework이다">#</a></h3>
+<p><em><strong>이전의 프로그램</strong></em>
+객체 결정 및 생성 -&gt; 의존성 객체 생성 -&gt; 객채 내의 메소드 호출 하는 작업을 반복했다. 이는 각 객체들이 프로그램의 흐름을 결정하고 각 객체를 구성하는 작업에 직접적으로 참여한 것이다.</p>
+<p><strong>즉, 모든 작업을 사용자가 제어하는 구조인 것</strong>이였는데 IOC에서는  객체는 자기가 사용할 객체를 선택하거나 생성하지 않는다. 또한 자신이 어디서 만들어지고 어떻게 사용되는지 또한 모른다. 자신의 모든 권한을 다른 대상에 위임함으로 써 제어권한을 위임받은 특별한 객체에 의해 결정되고 만들어진다.</p>
+<p><strong>즉, 제어의 흐름을 사용자가 컨트롤 하지 않고 위임한 특별한 객체에 모든 것을 맡기는 구조</strong></p>
+<h3 id="spring은-ioc-컨테이너이다">Spring은 IOC 컨테이너이다.<a hidden class="anchor" aria-hidden="true" href="#spring은-ioc-컨테이너이다">#</a></h3>
+<p>빈 객체의 생성(new), 빈 객체간 관계 설정(set), 빈 객체 관리(singleton등) 가 컨테이너 주요기능 으로 Spring Container가 관리한다.</p>
+<h3 id="ioc의-구성요소">IOC의 구성요소<a hidden class="anchor" aria-hidden="true" href="#ioc의-구성요소">#</a></h3>
+<h4 id="dl-dependency-lookup">DL: Dependency Lookup<a hidden class="anchor" aria-hidden="true" href="#dl-dependency-lookup">#</a></h4>
+<p><strong>의존성 검색:</strong> 컨테이너에서는 객체들을 관리하기 위해 별도의 저장소에 빈을 저장하는데 저장소에 저장되어 있는 개발자들이 컨테이너에서 제공하는 API 를 이용하여 사용하고자 하는 빈 을 검색하는 방법</p>
+<h4 id="di-dependency-injection-제일-중요한-컨셉중-하나">DI: Dependency Injection (제일 중요한 컨셉중 하나)<a hidden class="anchor" aria-hidden="true" href="#di-dependency-injection-제일-중요한-컨셉중-하나">#</a></h4>
+<p><strong>의존성 주입:</strong> 의존성 주입이란 객체가 서로 의존하는 관계가 되게 의존성을 주입하는 것이며 객체지향 프로그램에서 의존성 이란 하나의 객체가 어떠한 다른 객체를 사용하고 있음을 의미한다. 그리고 객체는 의존하고 있는 객체를 코드 상에서 직접 생성하고나 검색할 필요가 없다.</p>
+<p>IOC에서의 DI란 바로  <strong>각 클래스 사이에 필요로 하는 의존관계를 빈 설정 정보를 바탕으로 컨테이너가 자동으로 연결</strong>해 주는 것이다.</p>
+<p><a href="https://khj93.tistory.com/entry/Spring-Spring-Framework%EB%9E%80-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%ED%95%B5%EC%8B%AC-%EC%A0%95%EB%A6%AC">출처</a></p>
+<h2 id="3-의존성-주입-di---dependency-injection">3. 의존성 주입 (DI  : Dependency Injection)<a hidden class="anchor" aria-hidden="true" href="#3-의존성-주입-di---dependency-injection">#</a></h2>
 <ul>
 <li>각각의 계층이나 서비스들 간에 의존성이 존재할 경우 프레임워크가 서로 연결시켜준다.</li>
 </ul>
-<p>③  <strong>관점지향 프로그래밍</strong>(<strong>AOP</strong> : Aspect-Oriented Programming)</p>
+<p>원래 코드</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span>  <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Store</span> <span style="color:#f92672">{</span> 
+<span style="color:#66d9ef">private</span> Item item<span style="color:#f92672">;</span> 
+<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Store</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+ item <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> ItemImpl1<span style="color:#f92672">();</span> 
+ <span style="color:#f92672">}</span> 
+ <span style="color:#f92672">}</span>
+</code></pre></div><p>DI 코드</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span>  <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Store</span> <span style="color:#f92672">{</span> 
+<span style="color:#66d9ef">private</span> Item item<span style="color:#f92672">;</span> 
+<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">Store</span><span style="color:#f92672">(</span>Item item<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+ <span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">item</span> <span style="color:#f92672">=</span> item<span style="color:#f92672">;</span> 
+ <span style="color:#f92672">}</span> <span style="color:#f92672">}</span>
+</code></pre></div><p><a href="https://www.javaguides.net/2018/06/guide-to-dependency-injection-in-spring.html">https://www.javaguides.net/2018/06/guide-to-dependency-injection-in-spring.html</a></p>
+<h2 id="4-관점지향-프로그래밍-aop--aspect-oriented-programming">4. 관점지향 프로그래밍 (AOP : Aspect-Oriented Programming)<a hidden class="anchor" aria-hidden="true" href="#4-관점지향-프로그래밍-aop--aspect-oriented-programming">#</a></h2>
+<p><img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https://blog.kakaocdn.net/dn/oLHRl/btqIXgUevQB/RMWectPkhqPOOzzT9NMjKk/img.png" alt="enter image description here"></p>
 <ul>
-<li>
-<p>트랜잭션이나 로깅, 보안과 같이 여러 모듈에서  <strong>공통적으로 사용하는 기능의 경우 해당 기능을 분리</strong>하여 관리할 수 있다.</p>
-</li>
-<li>
-<p>AOP를 공부하려면 Filter, Interceptor, AOP를 비교하면서 공부하면 이해가 더 빠를 것이다.</p>
-</li>
+<li>트랜잭션이나 로깅, 보안과 같이 여러 모듈에서  <strong>공통적으로 사용하는 기능의 경우 해당 기능을 분리</strong>하여 관리할 수 있다.</li>
 </ul>
-<p><em><a href="http://goddaehee.tistory.com/154">http://goddaehee.tistory.com/154</a></em></p>
-<p>④ 애플리케이션 객체의 생명 주기와 설정을 포함하고 관리한다는 점에서 일종의 <strong>&quot;****컨테이너&quot;</strong>(Container)라고 할 수 있다.</p>
+<h3 id="spring-framework란-aop-aspect-oriented-programming-관점-지향-프로그래밍이다">Spring Framework란 AOP (Aspect Oriented Programming) 관점 지향 프로그래밍이다.<a hidden class="anchor" aria-hidden="true" href="#spring-framework란-aop-aspect-oriented-programming-관점-지향-프로그래밍이다">#</a></h3>
+<p>대부분은 객체 지향 프로그래밍을 지향하는 개발 프로세스인데,  중복된 코드들이 많아지고 가독성, 확장성, 유지보수성을 떨어뜨린다. AOP는 이 단점을 보완한다.</p>
+<p>Spring은 자체적으로 AOP를 지원하고 있기 때문에 트랜잭션이나 로깅, 보안과 같이 여러 비즈니스 모듈에서 공통적으로 필요로 하는 공통관심 사항을 핵심 로직과 분리시켜 각 모듈에 적용할 수 있음</p>
+<p>여러 오브젝트에 공통되는 코드를 모듈화하여 <strong>무분별하게 중복되는 코드를 한 곳에 모아 중복 되는 코드를 제거 할 수 있어지고 공통기능을 한 곳에 보관함으로써 공통 기능 하나의 수정으로 모든 핵심기능들의 공통기능을 수정 할 수 있어 효율적인 유지보수가 가능하며 재활용성이 극대</strong>화 될 수 있다.</p>
+<p>물론 AOP로 만들 수 있는 기능은 OOP로 구현 할 수 있는 기능이지만 Spring에서는 AOP를 편리하게 사용 할 수 있도록 이를 지원하고 있다.</p>
+<p><a href="http://goddaehee.tistory.com/154">추가적으로 AOP를 공부하려면 클릭</a></p>
+<h2 id="5영속성과-관련된-다양한-api-지원-및-연동-지원">5.영속성과 관련된 다양한 API 지원 및 연동 지원<a hidden class="anchor" aria-hidden="true" href="#5영속성과-관련된-다양한-api-지원-및-연동-지원">#</a></h2>
 <ul>
 <li>iBatis, myBatis나 Hibernate 등 완성도가 높은 데이터베이스처리 라이브러리와 연결할 수 있는 인터페이스를 제공한다.</li>
 </ul>
-<p>⑤  <strong>트랜잭션 관리</strong>  프레임워크</p>
+<h2 id="6-트랜잭션-관리-프레임워크">6. 트랜잭션 관리 프레임워크<a hidden class="anchor" aria-hidden="true" href="#6-트랜잭션-관리-프레임워크">#</a></h2>
 <ul>
 <li>추상화된 트랜잭션 관리를 지원하며 설정파일(xml, java, property 등)을 이용한 선언적인 방식 및 프로그래밍을 통한 방식을 모두 지원한다.</li>
 </ul>
-<p>⑥  <strong>모델-뷰-컨트롤러</strong>  패턴</p>
+<h2 id="7-모델-뷰-컨트롤러-mvc--패턴">7. 모델-뷰-컨트롤러 (MVC)  패턴<a hidden class="anchor" aria-hidden="true" href="#7-모델-뷰-컨트롤러-mvc--패턴">#</a></h2>
 <ul>
 <li>
-<p>웹 프로그램밍 개발 시 거의 표준적인 방식인  **&ldquo;Spring MVC&rdquo;**라 불리는 모델-뷰-컨트롤러(MVC) 패턴을 사용한다.</p>
+<p>웹 프로그램밍 개발 시 거의 표준적인 방식인  <strong>&ldquo;Spring MVC&rdquo;</strong> 라 불리는 모델-뷰-컨트롤러(MVC) 패턴을 사용한다.</p>
 </li>
 <li>
-<p>DispatcherServlet이 Controller 역할을 담당하여 각종 요청을 적절한 서비스에 분산시켜주며 이를 각 서비스들이 처리를 하여 결과를 생성하고 그 결과는 다양한 형식의 View 서비스들로 화면에 표시될 수 있다.</p>
+<p>DispatcherServlet이 Controller 역할을 담당하여 각종 요청을 적절한 서비스에 분산시켜주며 이를 각 서비스들이 처리를 하여 결과를 생성하고 그 결과는 다양한 형식의 View 서비스들로 화면에 표시될 수 있다. (추후에 Web에 들어가게 되면 이해가 될듯함)</p>
 </li>
 </ul>
-<p>⑦ 배치 프레임워크</p>
-<ul>
-<li>스프링은 특정 시간대에 실행하거나 대용량의 자료를 처리하는데 쓰이는 일괄 처리(Batch Processing)을 지원하는 배치 프레임워크를 제공한다. 기본적으로 스프링 배치는 Quartz 기반으로 동작한다.</li>
-</ul>
-<p>⑧  <strong>즉 공통 부분의 소스 코딩이 용이하며 확장성도 매우</strong></p>
-<p>출처: <a href="https://goddaehee.tistory.com/156">https://goddaehee.tistory.com/156</a> [갓대희의 작은공간]</p>
-<h2 id="ioc-기반의-spring-framework">IOC 기반의 Spring Framework<a hidden class="anchor" aria-hidden="true" href="#ioc-기반의-spring-framework">#</a></h2>
-<ul>
-<li>Spring은 IOC 기반의 Framework이다.</li>
-<li><strong>IOC:</strong> Inversion of Control 제어의 역전</li>
-</ul>
-<h3 id="이전의-프로그램">이전의 프로그램<a hidden class="anchor" aria-hidden="true" href="#이전의-프로그램">#</a></h3>
-<p>객체 결정 및 생성 -&gt; 의존성 객체 생성 -&gt; 객채 내의 메소드 호출 하는 작업을 반복했다.
-이는 각 객체들이 프로그램의 흐름을 결정하고 각 객체를 구성하는 작업에 직접적으로 참여한 것이다.
-<strong>즉, 모든 작업을 사용자가 제어하는 구조인 것</strong></p>
-<h3 id="제어의-역전">제어의 역전<a hidden class="anchor" aria-hidden="true" href="#제어의-역전">#</a></h3>
-<p>IOC에서의 객체는 자기가 사용할 객체를 선택하거나 생성하지 않는다. 또한 자신이 어디서 만들어지고 어떻게 사용되는지 또한 모릅니다. 자신의 모든 권한을 다른 대상에 위임함으로 써 제어권한을 위임받은 특별한 객체에 의해 결정되고 만들어집니다.</p>
-<p><strong>즉, 제어의 흐름을 사용자가 컨트롤 하지 않고 위임한 특별한 객체에 모든 것을 맡기는 것입니다.</strong></p>
-<p><strong>IOC란 기존 사용자가 모든 작업을 제어하던 것을 특별한 객체에 모든 것을 위임하여 객체의 생성부터 생명주기 등 모든 객체에 대한 제어권이 넘어 간 것을 IOC, 제어의 역전 이라고 합니다.</strong></p>
-<h4 id="ioc의-구성요소">IOC의 구성요소<a hidden class="anchor" aria-hidden="true" href="#ioc의-구성요소">#</a></h4>
-<h5 id="dl-dependency-lookup">DL: Dependency Lookup<a hidden class="anchor" aria-hidden="true" href="#dl-dependency-lookup">#</a></h5>
-<p>의존성 검색: 컨테이너에서는 객체들을 관리하기 위해 별도의 저장소에 빈을 저장하는데 저장소에 저장되어 있는 개발자들이 컨테이너에서 제공하는 API 를 이용하여 사용하고자 하는 빈 을 검색하는 방법입니다.</p>
-<h5 id="di-dependency-injection">DI: Dependency Injection<a hidden class="anchor" aria-hidden="true" href="#di-dependency-injection">#</a></h5>
-<p>의존성 주입: 의존성 주입이란 객체가 서로 의존하는 관계가 되게 의존성을 주입하는 것입니다. 객체지향 프로그램에서 의존성 이란 하나의 객체가 어떠한 다른 객체를 사용하고 있음을 의미합니다. 그렇다면 IOC에서의 DI는 무엇일까요?</p>
-<p>바로  <strong>각 클래스 사이에 필요로 하는 의존관계를 빈 설정 정보를 바탕으로 컨테이너가 자동으로 연결</strong>해 주는 것입니다.</p>
-<p><a href="https://khj93.tistory.com/entry/Spring-Spring-Framework%EB%9E%80-%EA%B8%B0%EB%B3%B8-%EA%B0%9C%EB%85%90-%ED%95%B5%EC%8B%AC-%EC%A0%95%EB%A6%AC">출처</a></p>
-<h2 id="spring-framework의-pojo란">Spring Framework의 POJO란?<a hidden class="anchor" aria-hidden="true" href="#spring-framework의-pojo란">#</a></h2>
-<p>POJO: Plain Old Java Object
-<img src="https://docs.spring.io/spring-framework/docs/4.3.30.RELEASE/spring-framework-reference/htmlsingle/images/container-magic.png" alt="enter image description here">
-POJO란
-gettet/setter를 가진 단순 자바 오브젝트로 정의를 하고 있습니다. 이러한 단순 오브젝트는 의존성이 없고 추후 테스트 및 유지보수가 편리한 유연성의 장점을 가집니다. 이러한 장점들로 인해 객체지향적인 다양한 설계와 구현이 가능해지고 POJO의 기반의 Framework가 조명을 받고 있습니다.</p>
-<p>Spring Framework 에서는 이러한 POJO을 지원하고 Spirng 홈페이지에는 이러한 글도 있습니다.</p>
-<p><strong>&ldquo;POJO를 사용함으로써, 당신의 코드는 더욱 심플해졌고, 그로인해 테스트 하기에 더 좋으며, 유연하고, 요구사항에 따라 기술적 선택을 바꿀수 있도록 바뀌었다.&quot;</strong></p>
-<h2 id="spring-framework란-aop-aspect-oriented-programming-관점-지향-프로그래밍이다">Spring Framework란 AOP (Aspect Oriented Programming) 관점 지향 프로그래밍이다.<a hidden class="anchor" aria-hidden="true" href="#spring-framework란-aop-aspect-oriented-programming-관점-지향-프로그래밍이다">#</a></h2>
-<p>대부분은 객체 지향 프로그래밍을 지향하는 개발 프로세스인데
-단점: 관심사가 같은 데이터를 한곳에 모아 분리하고 낮은 결합도를 갖게하여 독립적이고 유연한 모듈로 캠슐화를 하는 과정 속 중복된 코드들이 많아지고 가독성, 확장성, 유지보수성을 떨어뜨린다.</p>
-<p>AOP는 이 단점을 보완하기위해 나옴.</p>
-<p>핵심기능과 공통기능을 분리시켜 핵심 로직에 영향을 끼치지 않게 공통기능을 끼워 넣는 개발 형태이며 이렇게 개발함에 따라 <strong>무분별하게 중복되는 코드를 한 곳에 모아 중복 되는 코드를 제거 할 수 있어지고 공통기능을 한 곳에 보관함으로써 공통 기능 하나의 수정으로 모든 핵심기능들의 공통기능을 수정 할 수 있어 효율적인 유지보수가 가능하며 재활용성이 극대****화</strong>됩니다.</p>
-<p>물론 AOP로 만들 수 있는 기능은 OOP로 구현 할 수 있는 기능이지만 Spring에서는 AOP를 편리하게 사용 할 수 있도록 이를 지원하고 있습니다.</p>
-<p><a href="http://goddaehee.tistory.com/154">추가적으로 AOP를 공부하려면</a></p>
-<h2 id="spring-framework의-mvc-model2">Spring Framework의 MVC (Model2)<a hidden class="anchor" aria-hidden="true" href="#spring-framework의-mvc-model2">#</a></h2>
+<h3 id="spring-framework의-mvc-model2">Spring Framework의 MVC (Model2)<a hidden class="anchor" aria-hidden="true" href="#spring-framework의-mvc-model2">#</a></h3>
 <p><img src="https://t1.daumcdn.net/cfile/tistory/9929B2345B9E4E002D" alt="enter image description here"></p>
-<p>MVC란 (Model View Controller) 구조로 사용자 인터페이스와 비지니스 로직을 분리하여 개발 하는 것 입니다. MVC에서는 Model1과 Model2로 나누어져 있으며 일반적인 MVC는 Model2를 지칭합니다.</p>
+<ul>
+<li>MVC란 (Model View Controller) 구조로 사용자 인터페이스와 비지니스 로직을 분리하여 개발 하는 것</li>
+<li>MVC에서는 Model1과 Model2로 나누어져 있으며 일반적인 MVC는 Model2를 지칭</li>
+</ul>
+<h3 id="mvc1">MVC1<a hidden class="anchor" aria-hidden="true" href="#mvc1">#</a></h3>
+<p><img src="https://i.imgur.com/rzhzcZc.png" alt="enter image description here"></p>
+<h3 id="mvc2">MVC2<a hidden class="anchor" aria-hidden="true" href="#mvc2">#</a></h3>
+<p><img src="https://i.imgur.com/keastvz.png" alt="enter image description here">
+MVC1과는 다르게 <strong>Controller, View가 분리되어 있다.</strong></p>
+<h3 id="spring-mvc-pattern">Spring MVC Pattern<a hidden class="anchor" aria-hidden="true" href="#spring-mvc-pattern">#</a></h3>
+<p><img src="https://i.imgur.com/blr7x6q.png" alt="enter image description here"></p>
+<p>스프링에서는 유저의 요청을 받는 <strong>DispathcerServlet</strong>이 핵심이며 이것이 Front Controller의 역할을 맡는다. Front Controller(프런트 컨트롤러)란, 우선적으로 유저(클라이언트)의 모든 요청을 받고, 그 요청을 분석하여 세부 컨트롤러들에게 필요한 작업을 나눠주게 된다.</p>
 <p><strong>Model</strong></p>
-<p>Model에서는 데이터처리를 담당하는 부분입니다. Model부분은 Serivce영역과 DAO영역으로 나누어지게 되고 여기서 중요한 것은 Service 부분은 불필요하게 HTTP통신을 하지 않아야하고 request나 response와 같은 객체를 매개변수로 받아선 안된다. 또한 Model 부분의 Service는 view에 종속적인 코드가 없어야 하고 View 부분이 변경되더라도 Service 부분은 그대로 재사용 할 수 있어야 한다.</p>
-<p><strong>Model에서는 View와 Controller 어떠한 정보도 가지고 있어서는 안된다.</strong></p>
+<ul>
+<li>데이터처리를 담당하는 부분</li>
+<li>Serivce영역과 DAO영역으로 나누어지게 되고 여기서 중요한 것은 Service 부분은 불필요하게 HTTP통신을 하지 않아야하고 request나 response와 같은 객체를 매개변수로 받아선 안된다.</li>
+<li>또한 Model 부분의 Service는 view에 종속적인 코드가 없어야 하고 View 부분이 변경되더라도 Service 부분은 그대로 재사용 할 수 있어야 한다.</li>
+<li><strong>Model에서는 View와 Controller 어떠한 정보도 가지고 있어서는 안된다.</strong></li>
+</ul>
 <p><strong>View</strong></p>
-<p>View는 사용자 Interface를 담당하며 사용자에게 보여지는 부분입니다. View는 Controller를 통해 모델에 데이터에 대한 시각화를 담당하며 View는 자신이 요청을 보낼 Controller의 정보만 알고 있어야 하는 것이 핵심이다.</p>
-<p><strong>Model이 가지고 있는 정보를 저장해서는 안되며 Model, Controller에 구성 요소를 알아서는 안된다.</strong></p>
+<ul>
+<li>사용자 Interface를 담당하며 사용자에게 보여지는 부분</li>
+<li>View는 Controller를 통해 모델에 데이터에 대한 시각화를 담당하며 View는 자신이 요청을 보낼 Controller의 정보만 알고 있어야 하는 것이 핵심</li>
+<li><strong>Model이 가지고 있는 정보를 저장해서는 안되며 Model, Controller에 구성 요소를 알아서는 안됨</strong></li>
+</ul>
 <p><strong>Controller</strong></p>
-<p>Controller에서는 View에 받은 요청을 가공하여 Model(Service 영역)에 이를 전달한다. 또한 Model로 부터 받은 결과를 View로 넘겨주는 역할을 합니다. Controller에서는 모든 요청 에러와 모델 에러를 처리하며 View와 Controller에 정보를 알고 있어야한다.</p>
-<p><strong>Model과 View의 정보에 대해 알고 있어야한다.</strong></p>
+<ul>
+<li>Controller에서는 View에 받은 요청을 가공하여 Model(Service 영역)에 이를 전달한다. 또한 Model로 부터 받은 결과를 View로 넘겨주는 역할을 한다. Controller에서는 모든 요청 에러와 모델 에러를 처리하며 View와 Controller에 정보를 알고 있어야한다.</li>
+<li><strong>Model과 View의 정보에 대해 알고 있어야한다.</strong></li>
+</ul>
 <p>이렇게 Model, View, Controller를 나누는 이유는 소스를 분리함으로서 각 소스의 목적이 명확해 지고 유지보수하는데 있어서 용이하기 때문이다. Model의 Service영역은 자신을 어떠한 Controller가 호출하든 상관없이 정해진 매개변수만 받는다면 자신의 비즈니스 로직을 처리할 수 있어야한다.</p>
 <p>즉, 모듈화를 통해 어디서든 재사용이 가능하여야 한다는 뜻이다.</p>
 <p>이말은 View의 정보가 달라지더라도 Controller에서 Service에 넘겨줄 매개변수 데이터 가공만 처리하면 되기 때문에 유지보수 비용을 절감 할 수 있는 효과가 있다. 또한 Service영역의 재사용이 용이하기 때문에 확장성 부분에서도 큰 효과를 볼 수 있는 장점이있다.</p>
-<h2 id="구조">구조<a hidden class="anchor" aria-hidden="true" href="#구조">#</a></h2>
+<h2 id="8-배치-프레임워크">8. 배치 프레임워크<a hidden class="anchor" aria-hidden="true" href="#8-배치-프레임워크">#</a></h2>
+<ul>
+<li>스프링은 특정 시간대에 실행하거나 대용량의 자료를 처리하는데 쓰이는 일괄 처리(Batch Processing)을 지원하는 배치 프레임워크를 제공한다. 기본적으로 스프링 배치는 Quartz 기반으로 동작한다.</li>
+<li>Quartz: 자바 스케줄링 오픈소즈 프레임워크 , <strong><a href="http://www.quartz-scheduler.org/">Quartz</a></strong> is an open source job-scheduling framework written entirely in Java and designed for use in both <em>J2SE</em> and <em>J2EE</em> applications.</li>
+<li><a href="https://www.baeldung.com/quartz">https://www.baeldung.com/quartz</a></li>
+</ul>
+<h2 id="9-pojo">9. POJO<a hidden class="anchor" aria-hidden="true" href="#9-pojo">#</a></h2>
+<h3 id="spring-framework의-pojo란">Spring Framework의 POJO란?<a hidden class="anchor" aria-hidden="true" href="#spring-framework의-pojo란">#</a></h3>
+<p><strong>POJO:</strong> Plain Old Java Object
+<img src="https://docs.spring.io/spring-framework/docs/4.3.30.RELEASE/spring-framework-reference/htmlsingle/images/container-magic.png" alt="enter image description here">
+<strong>POJO란</strong> 특정 규약 및 환경에 종속적이지 않은 평범한 일반 자바 클래스 의미</p>
+<p><strong>POJO의 조건</strong></p>
+<ol>
+<li>
+<p><strong>특정규약에 종속되지 않는다.</strong></p>
+<p>POJO는 자바 언어와 꼭 필요한 API 외에는 종속되지 않아야 한다. EJB와 같이 특정 규약을 따라 비즈니스 컴포넌트를 만들어야 하는 경우는 POJO가 아니다. 특정 클래스를 상속해서 만들어야 하는 규약이 있는 경우도 마찬가지다.</p>
+</li>
+<li>
+<p><strong>특정 환경에 종속되지 않는다.</strong></p>
+<p>특정 환경에 종속적이어야만 동작하는 오브젝트도 POJO라고 할 수 없다. POJO는 환경에 독립적이어야 한다.</p>
+</li>
+</ol>
+<p><strong>POJO의 장점</strong></p>
+<ol>
+<li>
+<p>특정기술과 환경에 종속되지 않은 오브젝트는 그만큼 깔끔한 코드가 될 수 있다.</p>
+</li>
+<li>
+<p>POJO로 개발된 코드는 자동화된 테스트에 매우 유리하다.</p>
+</li>
+<li>
+<p><strong>객체지향적인 설계를 자유롭게 적용할 수 있다.</strong></p>
+</li>
+</ol>
+<p><strong>Spring Framework 에서는  POJO을 지원한다.</strong></p>
+<ul>
+<li>Spring 개발에 POJO 클래스를 활용할 수 있다는건 특정 구현 기술에 종속적이지 않다는 의미</li>
+<li>개발 후의 테스트시에도 DB와 특정 서버 없이도 테스트를 할 수 있기 때문에 개발이 빨라진다는 장점이 있음</li>
+<li>EJB와 다르게 기본 자바 클래스 코드 그대로 사용가능함</li>
+</ul>
+<h2 id="10-트랜잭션-처리를-위한-일관된-방법-제공">10. 트랜잭션 처리를 위한 일관된 방법 제공<a hidden class="anchor" aria-hidden="true" href="#10-트랜잭션-처리를-위한-일관된-방법-제공">#</a></h2>
+<ul>
+<li>벤더사에 상관없이 처리를 일관된 방법을 사용하여 할 수 있게 한다.</li>
+<li>JDBC API 및 JPA를 사용하거나 컨테이너가 제공하는 트랜잭션을 사용하든, 설정 파일을 통해 트랜잭션 관련 정보를 관리하기 때문에 특정 트랜잭션 구현 방법에 상관없이 동일 한 코드를 여러 환경에서 사용 가능</li>
+</ul>
+<p><em>즉 공통 부분의 소스 코딩이 용이하며 확장성도 매우 좋다</em></p>
+<p><a href="https://goddaehee.tistory.com/156%5D%28https://goddaehee.tistory.com/156">출처</a></p>
+<h1 id="구조">구조<a hidden class="anchor" aria-hidden="true" href="#구조">#</a></h1>
 <p><img src="https://t1.daumcdn.net/cfile/tistory/99A523405B9E2C1510" alt="enter image description here"></p>
-<p><strong>Spring Core</strong></p>
-<p>Spring Core는 Spring Container을 의미합니다. core라는 말 그대로 Container는 Spring Framework의 핵심이며 그중 핵심은 Bean Factory Container입니다. 그 이유는 바로 Bean Factory는 IOC패턴을 적용하여 객체 구성 부터 의존성 처리까지 모든 일을 처리하는 역할을 하고 있기 때문입니다.</p>
+<h2 id="spring-core">Spring Core<a hidden class="anchor" aria-hidden="true" href="#spring-core">#</a></h2>
 <ul>
-<li>
-<p>Spring 프레임워크의 근간이 되는요소. IoC(또는 DI) 기능을 지원하는 영역을 담당.</p>
-</li>
-<li>
-<p>BeanFactory를 기반으로 Bean 클래스들을 제어할 수 있는 기능을 지원</p>
-</li>
+<li>Spring Container를 의미한다.</li>
+<li>core라는 말 그대로 Container는 Spring Framework의 핵심이며 그중 핵심은 Bean Factory Container이다. 그 이유는 바로 Bean Factory는 IOC패턴을 적용하여 객체 구성 부터 의존성 처리까지 모든 일을 처리하는 역할을 하고 있기 때문이다.</li>
+<li>Spring 프레임워크의 근간이 되는요소. IoC(또는 DI) 기능을 지원하는 영역을 담당.</li>
+<li>BeanFactory를 기반으로 Bean 클래스들을 제어할 수 있는 기능을 지원</li>
+<li>One main between  <em>BeanFactory</em>  and  <em>ApplicationContext</em>  is that  <em>BeanFactory</em>  only instantiates bean when we call  <em>getBean()</em>  method while  <em>ApplicationContext</em>  instantiates singleton bean when the container is started, It doesn&rsquo;t wait for  <em>getBean()</em>  method to be called.</li>
 </ul>
-<p>출처: <a href="https://goddaehee.tistory.com/156">https://goddaehee.tistory.com/156</a> [갓대희의 작은공간]</p>
-<p><strong>Spring Context</strong></p>
-<p>Spring context는 Spring Framework의 context 정보들을 제공하는 설정 파일입니다. Spring Context에는 JNDI, EJB, Validation, Scheduiling, Internaliztaion 등 엔터프라이즈 서비스들을 포함하고 있습니다</p>
+<p><img src="https://3.bp.blogspot.com/-l8GPByZH0LE/XEMvZ_p-XiI/AAAAAAAAFdQ/AmUVLRJDElAcrWjC8OjKD9P4QRimpcOzwCLcBGAs/s1600/beanfactory-vs-applicationcontext.jpg" alt="enter image description here"></p>
+<h2 id="spring-context">Spring Context<a hidden class="anchor" aria-hidden="true" href="#spring-context">#</a></h2>
 <ul>
-<li>
-<p>Spring Core 바로 위에 있으면서 Spring Core에서 지원하는 기능외에 추가적인 기능들과 좀 더 쉬운 개발이 가능하도록 지원</p>
-</li>
-<li>
-<p>또한 JNDI, EJB등을 위한 Adaptor들을 포함</p>
-</li>
+<li>Spring context는 Spring Framework의 context 정보들을 제공하는 설정 파일이다.</li>
+<li>Spring Context에는 JNDI, EJB, Validation, Scheduiling, Internaliztaion 등 엔터프라이즈 서비스들을 포함</li>
+<li>Spring Core 바로 위에 있으면서 Spring Core에서 지원하는 기능외에 추가적인 기능들과 좀 더 쉬운 개발이 가능하도록 지원</li>
+<li>또한 JNDI, EJB등을 위한 Adaptor들을 포함</li>
 </ul>
-<p>출처: <a href="https://goddaehee.tistory.com/156">https://goddaehee.tistory.com/156</a> [갓대희의 작은공간]</p>
-<p><strong>Spring AOP</strong></p>
-<p>Spring AOP module은 Spring Framework에서 관점지향 프로그래밍을 할 수 있고 AOP를 적용 할수 있게 도와주는 Module입니다. 해당 AOP에 대한 내용은 위에서 설명 했기 때문에 넘어 가도록 하겠습니다.</p>
+<h2 id="spring-aop">Spring AOP<a hidden class="anchor" aria-hidden="true" href="#spring-aop">#</a></h2>
 <ul>
-<li>Spring 프레임워크에 Aspect Oriented Programming을 지원하는 기능이다. 이 기능은 AOP Alliance 기반하에서 개발</li>
+<li>Spring AOP module은 Spring Framework에서 관점지향 프로그래밍을 할 수 있고 AOP를 적용 할수 있게 도와주는 Module이다.</li>
+<li>Spring 프레임워크에 Aspect Oriented Programming을 지원하는 기능이다.</li>
 </ul>
-<p><strong>Spring DAO</strong></p>
-<p>DAO란 Data Access Object의 약자로 Database Data에 접근하는 객체입니다. Spring JDBC DAO는 추상 레이어를 지원함으로써 코딩이나 예외처리 하는 부분을 간편화 시켜 일관된 방법으로 코드를 짤 수 있게 도와줍니다.</p>
+<h2 id="spring-dao">Spring DAO<a hidden class="anchor" aria-hidden="true" href="#spring-dao">#</a></h2>
 <ul>
-<li>
-<p>지금까지 우리들이 일반적으로 많이 사용해왔던 JDBC 기반하의 DAO개발을 좀 더 쉽고, 일관된 방법으로 개발하는 것이 가능하도록 지원</p>
-</li>
-<li>
-<p>Spring DAO를 이용할 경우 지금까지 개발하던 DAO보다 적은 코드와 쉬운 방법으로 DAO를 개발하는 것이 가능</p>
-</li>
+<li>DAO란 Data Access Object의 약자로 Database Data에 접근하는 객체이다.</li>
+<li>Spring JDBC DAO는 추상 레이어를 지원함으로써 코딩이나 예외처리 하는 부분을 간편화 시켜 일관된 방법으로 코드를 짤 수 있게 도와준다.</li>
+<li>지금까지 우리들이 일반적으로 많이 사용해왔던 JDBC 기반하의 DAO개발을 좀 더 쉽고, 일관된 방법으로 개발하는 것이 가능하도록 지원</li>
+<li>Spring DAO를 이용할 경우 지금까지 개발하던 DAO보다 적은 코드와 쉬운 방법으로 DAO를 개발하는 것이 가능</li>
 </ul>
-<p><strong>Spring ORM</strong></p>
-<p>ORM이란 Object relational mapping의 약자로 간단하게 객체와의 관계 설정을 하는 것입니다. Spring에서는 Ibatis, Hibernate, JDO 등 인기있는 객체 관계형 도구(OR도구)를 사용 할 수 있도록 지원합니다</p>
+<h3 id="code-예시">Code 예시<a hidden class="anchor" aria-hidden="true" href="#code-예시">#</a></h3>
+<h4 id="dao">DAO<a hidden class="anchor" aria-hidden="true" href="#dao">#</a></h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span>  <span style="color:#66d9ef">abstract</span>  <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">AbstractJpaDAO</span><span style="color:#f92672">&lt;</span> T <span style="color:#66d9ef">extends</span> Serializable <span style="color:#f92672">&gt;</span> <span style="color:#f92672">{</span> 
+		<span style="color:#66d9ef">private</span> Class<span style="color:#f92672">&lt;</span> T <span style="color:#f92672">&gt;</span> clazz<span style="color:#f92672">;</span> 
+		<span style="color:#a6e22e">@PersistenceContext</span> 
+		EntityManager entityManager<span style="color:#f92672">;</span> 
+
+		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">final</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setClazz</span><span style="color:#f92672">(</span> Class<span style="color:#f92672">&lt;</span> T <span style="color:#f92672">&gt;</span> clazzToSet <span style="color:#f92672">){</span>
+		<span style="color:#66d9ef">this</span><span style="color:#f92672">.</span><span style="color:#a6e22e">clazz</span> <span style="color:#f92672">=</span> clazzToSet<span style="color:#f92672">;</span> <span style="color:#f92672">}</span> 
+
+		<span style="color:#66d9ef">public</span> T <span style="color:#a6e22e">findOne</span><span style="color:#f92672">(</span> <span style="color:#66d9ef">long</span> id <span style="color:#f92672">){</span> 
+		<span style="color:#66d9ef">return</span> entityManager<span style="color:#f92672">.</span><span style="color:#a6e22e">find</span><span style="color:#f92672">(</span> clazz<span style="color:#f92672">,</span> id <span style="color:#f92672">);</span> <span style="color:#f92672">}</span> 
+
+		<span style="color:#66d9ef">public</span> List<span style="color:#f92672">&lt;</span> T <span style="color:#f92672">&gt;</span> findAll<span style="color:#f92672">(){</span> 
+		<span style="color:#66d9ef">return</span> entityManager<span style="color:#f92672">.</span><span style="color:#a6e22e">createQuery</span><span style="color:#f92672">(</span> <span style="color:#e6db74">&#34;from &#34;</span> <span style="color:#f92672">+</span> clazz<span style="color:#f92672">.</span><span style="color:#a6e22e">getName</span><span style="color:#f92672">()</span> <span style="color:#f92672">)</span> <span style="color:#f92672">.</span><span style="color:#a6e22e">getResultList</span><span style="color:#f92672">();</span> <span style="color:#f92672">}</span> 
+
+		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">create</span><span style="color:#f92672">(</span> T entity <span style="color:#f92672">){</span> 
+		entityManager<span style="color:#f92672">.</span><span style="color:#a6e22e">persist</span><span style="color:#f92672">(</span> entity <span style="color:#f92672">);</span> <span style="color:#f92672">}</span> 
+		
+		<span style="color:#66d9ef">public</span> T <span style="color:#a6e22e">update</span><span style="color:#f92672">(</span> T entity <span style="color:#f92672">){</span>
+		<span style="color:#66d9ef">return</span> entityManager<span style="color:#f92672">.</span><span style="color:#a6e22e">merge</span><span style="color:#f92672">(</span> entity <span style="color:#f92672">);</span> <span style="color:#f92672">}</span> 
+	
+		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">delete</span><span style="color:#f92672">(</span> T entity <span style="color:#f92672">){</span>
+		entityManager<span style="color:#f92672">.</span><span style="color:#a6e22e">remove</span><span style="color:#f92672">(</span> entity <span style="color:#f92672">);</span> <span style="color:#f92672">}</span> 
+
+		<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">deleteById</span><span style="color:#f92672">(</span> <span style="color:#66d9ef">long</span> entityId <span style="color:#f92672">){</span>
+		T entity <span style="color:#f92672">=</span> findOne<span style="color:#f92672">(</span> entityId <span style="color:#f92672">);</span> delete<span style="color:#f92672">(</span> entity <span style="color:#f92672">);</span> <span style="color:#f92672">}</span> <span style="color:#f92672">}</span>
+</code></pre></div><p>The persistence post processor is either created explicitly by defining it in the configuration or automatically, by defining  <em>context:annotation-config</em>  or  <em>context:component-scan</em>  in the namespace config.</p>
+<p>Also, note that the entity  <em><strong>Class</strong></em>  is passed in the constructor to be used in the generic operations:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#a6e22e">@Repository</span>  
+<span style="color:#66d9ef">public</span>  <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">FooDAO</span> <span style="color:#66d9ef">extends</span> AbstractJPADAO<span style="color:#f92672">&lt;</span> Foo <span style="color:#f92672">&gt;</span> <span style="color:#66d9ef">implements</span> IFooDAO<span style="color:#f92672">{</span> 
+<span style="color:#66d9ef">public</span> <span style="color:#a6e22e">FooDAO</span><span style="color:#f92672">(){</span>
+ setClazz<span style="color:#f92672">(</span>Foo<span style="color:#f92672">.</span><span style="color:#a6e22e">class</span> <span style="color:#f92672">);</span> <span style="color:#f92672">}</span> <span style="color:#f92672">}</span>
+</code></pre></div><h2 id="spring-orm">Spring ORM<a hidden class="anchor" aria-hidden="true" href="#spring-orm">#</a></h2>
 <ul>
+<li>ORM이란 Object relational mapping의 약자로 간단하게 객체와의 관계 설정을 하는 것이다. Spring에서는 Ibatis, Hibernate, JDO 등 인기있는 객체 관계형 도구(OR도구)를 사용 할 수 있도록 지원합니다</li>
 <li>Object Relation Mapping 프레임워크인 Hibernate, IBatis, JDO와의 결합을 지원하기 위한 기능</li>
 <li>Spring ORM을 이용할 경우 Hibernate, IBatis, JDO 프레임워크와 쉽게 통합하는 것이 가능</li>
-<li>Object Relation Mapping 프레임워크인 Hibernate, IBatis, JDO와의 결합을 지원하기 위한 기능</li>
-<li>Spring ORM을 이용할 경우 Hibernate, IBatis, JDO 프레임워크와 쉽게 통합하는 것이 가능</li>
 </ul>
-<p><strong>Spring Web</strong></p>
-<p>Spirng에서 Web context module은 Application module에 내장되어 있고 Web기반의 응용프로그램에 대한 Context를 제공하여 일반적인 Web Application 개발에 필요한 기본적인 기능을 지원합니다.  그로인해 Jakarta Structs 와의 통합을 지원하고 있습니다</p>
-<p><strong>Spring MVC</strong></p>
-<p>Spring에서는 MVC에서는 Model2 구조로 Apllication을 만들 수 있도록 지원합니다. MVC (Model-View-Controller) 프레임 워크는 웹 응용 프로그램을 작성하기위한 완전한 기능을 갖춘 MVC를 구현합니다. MVC 프레임 워크는 전략 인터페이스를 통해 고급 구성 가능하며 JSP, Velocity, Tiles, iText 및 POI를 포함한 수많은 뷰 기술을 지원하고 있습니다.</p>
-<h2 id="spring-filter-interceptor-aop-차이-및-정리">[Spring] Filter, Interceptor, AOP 차이 및 정리+<a hidden class="anchor" aria-hidden="true" href="#spring-filter-interceptor-aop-차이-및-정리">#</a></h2>
+<p>코드 예시: <a href="https://www.journaldev.com/7655/spring-orm-example-jpa-hibernate-transaction">https://www.journaldev.com/7655/spring-orm-example-jpa-hibernate-transaction</a></p>
+<h2 id="spring-web">Spring Web<a hidden class="anchor" aria-hidden="true" href="#spring-web">#</a></h2>
+<ul>
+<li>Spirng에서 Web context module은 Application module에 내장되어 있고 Web기반의 응용프로그램에 대한 Context를 제공하여 일반적인 Web Application 개발에 필요한 기본적인 기능을 지원한다.  그로인해 Jakarta Structs 와의 통합을 지원한다.</li>
+</ul>
+<h2 id="spring-mvc">Spring MVC<a hidden class="anchor" aria-hidden="true" href="#spring-mvc">#</a></h2>
+<ul>
+<li>Spring에서는 MVC에서는 Model2 구조로 Aplication을 만들 수 있도록 지원한다.</li>
+<li>MVC (Model-View-Controller) 프레임 워크는 웹 응용 프로그램을 작성하기위한 완전한 기능을 갖춘 MVC를 구현한다.</li>
+<li>MVC 프레임 워크는 전략 인터페이스를 통해 고급 구성 가능하며 JSP, Velocity, Tiles, iText 및 POI를 포함한 수많은 뷰 기술을 지원하고 있다.</li>
+</ul>
 <p><a href="https://goddaehee.tistory.com/154?category=173020">https://goddaehee.tistory.com/154?category=173020</a></p>
+<h1 id="spring-filter-interceptor-aop-차이-및-정리">[Spring] Filter, Interceptor, AOP 차이 및 정리+<a hidden class="anchor" aria-hidden="true" href="#spring-filter-interceptor-aop-차이-및-정리">#</a></h1>
+<p><a href="https://goddaehee.tistory.com/154?category=173020">https://goddaehee.tistory.com/154?category=173020</a></p>
+<h1 id="spring-annotation정리">Spring Annotation정리<a hidden class="anchor" aria-hidden="true" href="#spring-annotation정리">#</a></h1>
+<p><a href="https://velog.io/@gillog/Spring-Annotation-%EC%A0%95%EB%A6%AC">https://velog.io/@gillog/Spring-Annotation-%EC%A0%95%EB%A6%AC</a></p>
 
 </div>
   <footer class="post-footer">
