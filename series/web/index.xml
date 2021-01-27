@@ -5,7 +5,18 @@
     <link>https://ajdeve.github.io/series/web/</link>
     <description>Recent content in Web on AJ&#39;s DEV LIFE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 17 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/series/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/series/web/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Framework</title>
+      <link>https://ajdeve.github.io/post/spring-framework/</link>
+      <pubDate>Tue, 26 Jan 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://ajdeve.github.io/post/spring-framework/</guid>
+      <description>Spring Framework  Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다. 객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크!
+Spring Framework + Business Logic (컨텐츠) = Application
+ Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량급 애플리케이션 프레임워크 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리한다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다.</description>
+    </item>
+    
     <item>
       <title>Servlet &amp; JSP</title>
       <link>https://ajdeve.github.io/post/servlet-jsp/</link>
@@ -27,17 +38,6 @@ Servlet 돌아가는 과정 서블렛은 Servlet Container (서블렛 컨테이�
   client단 개발 기술
  화면 구성 html: 구조  서버에 전송하고자 하는 입력 양식 (input from)   css: 보기 좋게 꾸미는 언어 Java script: 브라우저 화면을 동적 처리를 위한 언어  모든 서버단 언어와 소통이 가능 화면단 처리 언어 Java와 non-java와 소통 가능      server단 개발 기술 (back)
  Java 기반: Servle &amp;amp; JSP  servlet  java 기반의 웹 처리 스펙 controller   JSP  Java 코드 보다는 jsp 자체 tag + html tag + css + java script 위주의 화면단 처리 스펙 Java 코드 보다는 jsp 자체 tag 위주의 화면단 처리 스펙 Java의 데이터값을 브라우저 화면에 출력하게 하는 기술 화면 처리 언어 html과 가장 큰 차이점  html은 자바 코드 활용 불가       php, asp, django&amp;hellip;  python 기반의 분석      front + back = full stack</description>
-    </item>
-    
-    <item>
-      <title>Spring Framework</title>
-      <link>https://ajdeve.github.io/post/spring-framework/</link>
-      <pubDate>Sun, 26 Jan 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://ajdeve.github.io/post/spring-framework/</guid>
-      <description>Spring Framework  Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다. 객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크!
-Spring Framework + Business Logic (컨텐츠) = Application
- Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량급 애플리케이션 프레임워크 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리한다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다.</description>
     </item>
     
   </channel>

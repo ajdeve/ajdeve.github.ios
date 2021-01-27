@@ -5,7 +5,18 @@
     <link>https://ajdeve.github.io/</link>
     <description>Recent content on AJ&#39;s DEV LIFE</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Jan 2021 11:30:03 +0000</lastBuildDate><atom:link href="https://ajdeve.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spring Framework</title>
+      <link>https://ajdeve.github.io/post/spring-framework/</link>
+      <pubDate>Tue, 26 Jan 2021 11:30:03 +0000</pubDate>
+      
+      <guid>https://ajdeve.github.io/post/spring-framework/</guid>
+      <description>Spring Framework  Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다. 객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크!
+Spring Framework + Business Logic (컨텐츠) = Application
+ Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량급 애플리케이션 프레임워크 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리한다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다.</description>
+    </item>
+    
     <item>
       <title>DOM vs. Virtual DOM</title>
       <link>https://ajdeve.github.io/post/domvsvdom/</link>
@@ -95,17 +106,6 @@ flush() : DB에 실제 쿼리를 날려 execute하는 기능이며 commit이 아
 clear() : 영속성 컨텍스트에 저장한 데이터를 지워버린다.
 commit() : DB에 저장,수정,삭제를 반영한다.
 rollback:() : DB에 저장하지 않고 영속성 컨텍스트 데이터를 날린다.</description>
-    </item>
-    
-    <item>
-      <title>Spring Framework</title>
-      <link>https://ajdeve.github.io/post/spring-framework/</link>
-      <pubDate>Sun, 26 Jan 2020 11:30:03 +0000</pubDate>
-      
-      <guid>https://ajdeve.github.io/post/spring-framework/</guid>
-      <description>Spring Framework  Rod Johnson이 2003년 개발한 Spring Framework는 JavaEE 앱을 쉽게 만들게 한다. 객체를 한곳에서 모아서 관리하며 표준화와 정형화된 코드를 짤 수 있게 하는 프레임워크!
-Spring Framework + Business Logic (컨텐츠) = Application
- Spring Framework란?  자바 플랫폼을 위한 오픈소스 애플리케이션 프레임워크로서 엔터프라이즈급 애플리케이션을 개발하기 위한 모든 기능을 종합적으로 제공하는 경량급 애플리케이션 프레임워크 Spirng Framework는 경량 컨테이너로 자바 객체를 담고 직접 관리한다. 객체의 생성 및 소멸 그리고 라이프 사이클을관리하며 언제든 Spring 컨테이너로 부터 필요한 객체를 가져와 사용할 수 있다.</description>
     </item>
     
   </channel>
